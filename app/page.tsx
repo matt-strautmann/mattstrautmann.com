@@ -40,6 +40,12 @@ export default function Home() {
                 <p className="text-slate-600 mt-1 font-medium">Software Engineer & Builder</p>
               </div>
               <div className="flex items-center gap-3">
+                <Link
+                  href="/resources"
+                  className="hidden md:flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-medium"
+                >
+                  Resources
+                </Link>
                 <a
                   href="https://linkedin.com/in/mattstrautmann"
                   target="_blank"
