@@ -15,6 +15,29 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "sbdk",
+    title: "SBDK - Software Builder Development Kit",
+    description: "A comprehensive development kit for building software projects faster and more efficiently",
+    longDescription: `SBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help developers build better software faster.
+
+The kit includes pre-configured setups for common development tasks, best-practice implementations, and tools that reduce boilerplate code. SBDK is built with TypeScript for excellent developer experience and type safety.
+
+Key features include:
+- Modular architecture for easy customization
+- TypeScript-first with full type definitions
+- Comprehensive documentation and examples
+- Active development and community support
+- Integration with popular frameworks and tools
+
+Whether you're starting a new project or enhancing an existing one, SBDK provides the building blocks you need to accelerate development while maintaining code quality.`,
+    tags: ["developer-tools", "typescript", "open-source", "sdk"],
+    techStack: ["TypeScript", "Node.js"],
+    github: "https://github.com/sbdk-dev/sbdk-dev",
+    website: "https://sbdk.dev",
+    featured: true,
+    date: "2025-10",
+  },
+  {
     id: "portfolio-website",
     title: "AEO-Optimized Portfolio",
     description: "A modern, maintainable portfolio website built for AI search engine discoverability",
@@ -22,49 +45,21 @@ export const projects: Project[] = [
 
 The site features automatic sitemap generation, semantic HTML structure, and comprehensive metadata for each project. All projects are managed through a single data file, making it incredibly easy to maintain and update.
 
-Built with Next.js 16 for optimal performance, the site uses static generation to ensure fast load times and excellent SEO. The clean, minimal design puts the focus on the work itself.`,
-    tags: ["web", "portfolio", "open-source", "seo"],
+Built with Next.js 16 for optimal performance, the site uses static generation to ensure fast load times and excellent SEO. The clean, modern design uses gradients and smooth animations to create an engaging experience while maintaining professionalism.
+
+Special features:
+- llms.txt file for AI crawler optimization
+- Complete Schema.org markup on every page
+- Automatic sitemap and robots.txt generation
+- Mobile-first responsive design
+- Lightning-fast static generation
+- Easy content management through a single data file`,
+    tags: ["web", "portfolio", "open-source", "seo", "aeo"],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
     github: "https://github.com/matt-strautmann/mattstrautmann.com",
     featured: true,
     date: "2025-10",
-  },
-  {
-    id: "example-tool",
-    title: "Developer Tool Example",
-    description: "A sample project showcasing how projects appear on this portfolio",
-    longDescription: `This is a sample project to demonstrate how your open source projects will appear on this portfolio site.
-
-When you add your real projects, you can describe what problem they solve, the technologies you used, and why you built them. This detailed information helps both human visitors and AI search engines understand your work.
-
-You can include links to GitHub repositories, live demos, and related projects. The cross-linking feature helps visitors discover your other work.`,
-    tags: ["cli", "tool", "developer-tools"],
-    techStack: ["Node.js", "TypeScript"],
-    github: "https://github.com/matt-strautmann/example-tool",
-    featured: false,
-    date: "2025-09",
-    relatedProjects: ["portfolio-website"],
-  },
-  {
-    id: "web-app-demo",
-    title: "Full-Stack Web Application",
-    description: "Example of a full-stack project with frontend and backend components",
-    longDescription: `This demonstrates how a full-stack application project would appear in your portfolio. You can describe the architecture, explain technical decisions, and highlight interesting challenges you solved.
-
-For web applications, you might want to include information about:
-- The problem domain and user needs
-- Your technical stack and why you chose it
-- Interesting technical challenges and how you solved them
-- Performance optimizations or scalability considerations
-- Any notable features or innovations
-
-The structured data on each project page helps AI search engines understand your technical expertise and the types of problems you solve.`,
-    tags: ["web", "full-stack", "database"],
-    techStack: ["React", "Node.js", "PostgreSQL", "Express"],
-    demo: "https://demo.example.com",
-    featured: true,
-    date: "2025-08",
-    relatedProjects: ["example-tool"],
+    relatedProjects: ["sbdk"],
   },
 ];
 
