@@ -251,6 +251,17 @@ Each project page answers:
 
 ---
 
+## 📚 Documentation
+
+**Comprehensive guides available in [`/docs`](./docs):**
+- **[Setup Checklist](./docs/SETUP_CHECKLIST.md)** - Complete GitHub optimization guide
+- **[Contributing Guidelines](./docs/CONTRIBUTING.md)** - How to contribute
+- **[LinkedIn Optimization](./docs/LINKEDIN_OPTIMIZATION_GUIDE.md)** - Grow your LinkedIn presence
+- **[Backlink Strategy](./docs/BACKLINK_STRATEGY.md)** - SEO backlink acquisition
+- **[GitHub README Template](./docs/GITHUB_README_EXECUTIVE.md)** - Profile README example
+
+---
+
 ## 🤝 Contributing
 
 This is my personal portfolio, but I'm happy to accept:
@@ -259,11 +270,7 @@ This is my personal portfolio, but I'm happy to accept:
 - **Feature suggestions** - Open an issue to discuss
 - **Documentation** - Help others understand AEO
 
-**To contribute:**
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feature/amazing`)
-3. Commit your changes
-4. Push and open a Pull Request
+**See [Contributing Guidelines](./docs/CONTRIBUTING.md) for full details.**
 
 ---
 

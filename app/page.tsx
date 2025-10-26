@@ -90,24 +90,26 @@ export default function Home() {
               {/* Clear Value Proposition */}
               <div className="mb-6">
                 <span className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  AI & Data Leadership | Building Open Source
+                  AI & Data Executive Building Open Source
                 </span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-                I turn messy data into{" "}
+                From 6 days to 30 seconds.{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  profit for scaling companies
+                  That's what AI-first data platforms deliver.
                 </span>
               </h2>
 
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Head of Data at PostPilot. Previously built AI/ML platforms at Airbnb and Braze that delivered
-                80% efficiency gains and $100K+ revenue impact. Now building{" "}
+                I'm Matt Strautmann, Head of Data at <span className="font-semibold">PostPilot</span>.
+                I build ML/AI systems that turn data chaos into revenue for scaling companies.
+                Previously at <span className="font-semibold">Airbnb</span> and <span className="font-semibold">Braze</span>,
+                delivering 80% efficiency gains and $100K+ revenue impact. Now sharing everything I've learned through{" "}
                 <a href="https://sbdk.dev" className="text-blue-600 hover:underline font-semibold" target="_blank" rel="noopener noreferrer">
-                  SBDK
+                  open source tools
                 </a>
-                {" "}— open source developer tools for the next generation.
+                .
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -148,12 +150,41 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Executive Experience Section */}
+          {/* The Challenge Section - Fletch PMM Problem Framework */}
           <section className="mb-20">
-            <div className="flex items-center gap-3 mb-8">
-              <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
-              <h2 className="text-3xl font-bold text-slate-900">Leadership & Impact</h2>
+            <div className="max-w-4xl mx-auto bg-gradient-to-br from-slate-50 to-blue-50 rounded-3xl p-12 border-2 border-slate-200">
+              <div className="mb-6">
+                <span className="inline-block bg-slate-900 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  The Challenge
+                </span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                Most companies are drowning in data but starving for insights.
+              </h2>
+              <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
+                <p>
+                  <strong>The problem:</strong> Teams spend weeks generating reports that executives barely read.
+                  Data sits in silos. ML models never make it to production. Revenue opportunities slip through the cracks.
+                </p>
+                <p>
+                  <strong>The cost:</strong> Lost time, missed revenue, and teams burning out on manual work that should be automated.
+                </p>
+                <p className="text-xl font-semibold text-blue-600">
+                  → I've solved this at Airbnb, Braze, and now PostPilot. Here's how.
+                </p>
+              </div>
             </div>
+          </section>
+
+          {/* The Solution: Executive Experience Section */}
+          <section className="mb-20">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
+              <h2 className="text-3xl font-bold text-slate-900">How I've Delivered Results</h2>
+            </div>
+            <p className="text-lg text-slate-600 mb-8 max-w-3xl">
+              Real impact from AI/ML platforms and data strategy at top tech companies.
+            </p>
 
             <div className="space-y-6">
               <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
@@ -250,16 +281,16 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Open Source Projects */}
+          {/* Value Props: Open Source Projects */}
           {featuredProjects.length > 0 && (
             <section className="mb-16">
-              <div className="flex items-center gap-3 mb-8">
+              <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
-                <h2 className="text-3xl font-bold text-slate-900">Open Source Projects</h2>
+                <h2 className="text-3xl font-bold text-slate-900">What I'm Building in the Open</h2>
               </div>
-              <p className="text-slate-600 mb-8 max-w-3xl">
-                Beyond my executive work, I build and maintain open source developer tools.
-                All code is publicly available on GitHub — contributions welcome.
+              <p className="text-lg text-slate-600 mb-8 max-w-3xl">
+                After 10+ years solving data problems at top companies, I'm packaging those lessons into open source tools.
+                <strong className="text-slate-900"> All code is public. All learnings are shared.</strong>
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -380,7 +411,7 @@ export default function Home() {
             </section>
           )}
 
-          {/* Contact CTA */}
+          {/* CTA Section */}
           <section className="mt-24 pt-16 border-t border-slate-200">
             <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-12 text-center relative overflow-hidden">
               {/* Decorative elements */}
@@ -388,11 +419,16 @@ export default function Home() {
               <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl"></div>
 
               <div className="relative">
-                <h2 className="text-3xl font-bold text-white mb-4">
-                  Let's connect and collaborate
+                <div className="mb-4">
+                  <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                    Let's Connect
+                  </span>
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Building something in AI/Data?
                 </h2>
-                <p className="text-slate-300 mb-8 max-w-2xl mx-auto">
-                  Open to interesting projects and conversations. Connect with me on LinkedIn or check out my code on GitHub.
+                <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                  I share insights on LinkedIn, code on GitHub, and occasionally consult for the right opportunities.
                 </p>
                 <div className="flex gap-4 justify-center flex-wrap">
                   <a
