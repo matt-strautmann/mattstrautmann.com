@@ -7,14 +7,24 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Matt Strautmann",
-    jobTitle: "Software Engineer & Open Source Builder",
+    jobTitle: "Head of Data",
+    worksFor: {
+      "@type": "Organization",
+      name: "PostPilot"
+    },
     url: "https://mattstrautmann.com",
     sameAs: [
       "https://github.com/matt-strautmann",
       "https://linkedin.com/in/mattstrautmann",
     ],
-    knowsAbout: projects.map(p => p.title),
-    description: "Software engineer building developer tools and open source projects. Creator of SBDK (Software Builder Development Kit). Helping developers build better software faster.",
+    alumniOf: [
+      { "@type": "Organization", "name": "Airbnb" },
+      { "@type": "Organization", "name": "Braze" },
+      { "@type": "Organization", "name": "Good Money" },
+      { "@type": "Organization", "name": "Conversant" }
+    ],
+    knowsAbout: ["Artificial Intelligence", "Machine Learning", "Data Strategy", "Enterprise Data Platforms", "Developer Tools"],
+    description: "AI & Data executive. Head of Data at PostPilot. Former Airbnb, Braze. Built ML platforms that delivered 80% efficiency gains and $100K+ revenue impact. Now building SBDK - developer tools for the next generation.",
   };
 
   const featuredProjects = projects.filter(p => p.featured);
@@ -37,7 +47,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-slate-900 via-blue-800 to-slate-900 bg-clip-text text-transparent">
                   Matt Strautmann
                 </h1>
-                <p className="text-slate-600 mt-1 font-medium">Software Engineer & Builder</p>
+                <p className="text-slate-600 mt-1 font-medium">Head of Data @ PostPilot | Former Airbnb, Braze</p>
               </div>
               <div className="flex items-center gap-3">
                 <Link
@@ -76,59 +86,181 @@ export default function Home() {
         {/* Hero Section */}
         <main className="max-w-6xl mx-auto px-6 py-16">
           <section className="mb-20">
-            <div className="max-w-3xl">
-              {/* Clear Value Proposition (Justin Welch style) */}
+            <div className="max-w-4xl">
+              {/* Clear Value Proposition */}
               <div className="mb-6">
                 <span className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  Developer Tools & Open Source
+                  AI & Data Leadership | Building in Public
                 </span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-                I help developers{" "}
+                I turn messy data into{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  build better software faster
+                  profit for scaling companies
                 </span>
               </h2>
 
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Software engineer creating developer tools and open source projects. Currently building{" "}
+                Head of Data at PostPilot. Previously built AI/ML platforms at Airbnb and Braze that delivered
+                80% efficiency gains and $100K+ revenue impact. Now building{" "}
                 <a href="https://sbdk.dev" className="text-blue-600 hover:underline font-semibold" target="_blank" rel="noopener noreferrer">
                   SBDK
                 </a>
-                {" "}— a comprehensive development kit that streamlines the software development process.
+                {" "}— developer tools for the next generation.
               </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">80%</div>
+                  <div className="text-sm text-slate-600">Efficiency gain in reporting at Braze</div>
+                </div>
+                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$100K+</div>
+                  <div className="text-sm text-slate-600">Revenue impact at Sketchy</div>
+                </div>
+                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
+                  <div className="text-sm text-slate-600">Years leading data teams</div>
+                </div>
+              </div>
 
               <div className="flex flex-wrap gap-6 text-sm text-slate-600">
                 <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                   </svg>
-                  <span><strong>Open Source</strong> contributor</span>
+                  <span><strong>Enterprise ML/AI</strong> platforms</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                  <span><strong>Data strategy</strong> for scale</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
-                  <span><strong>TypeScript</strong> & modern web tech</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                  <span>Building in <strong>public</strong></span>
+                  <span><strong>Building</strong> dev tools</span>
                 </div>
               </div>
             </div>
           </section>
 
-          {/* Featured Projects */}
+          {/* Executive Experience Section */}
+          <section className="mb-20">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
+              <h2 className="text-3xl font-bold text-slate-900">Leadership & Impact</h2>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Head of Data</h3>
+                    <p className="text-lg text-blue-600 font-semibold">PostPilot</p>
+                    <p className="text-sm text-slate-500">Dec 2024 - Present</p>
+                  </div>
+                </div>
+                <p className="text-slate-700 leading-relaxed">
+                  Leading data strategy, AI product development, and machine learning platforms for a scaling marketing tech company.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Senior Manager, Data & AI Engineering</h3>
+                    <p className="text-lg text-blue-600 font-semibold">Braze</p>
+                    <p className="text-sm text-slate-500">Aug 2022 - Oct 2024 • 2 yrs 3 mos</p>
+                  </div>
+                </div>
+                <ul className="space-y-3 text-slate-700">
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span><strong>80% efficiency gain:</strong> Reduced Executive Business Review generation from 6 days to real-time</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Product owner for internal AI tooling and campaign performance reporting</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Partnered with senior leadership to align AI investments with revenue enablement</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Director of Data Science, HotelTonight</h3>
+                    <p className="text-lg text-blue-600 font-semibold">Airbnb</p>
+                    <p className="text-sm text-slate-500">Nov 2018 - Apr 2020 • 1 yr 6 mos</p>
+                  </div>
+                </div>
+                <ul className="space-y-3 text-slate-700">
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Led data division; team of 10+ reporting to Head of Data</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span><strong>Multi-million dollar revenue growth</strong> via improved forecasting and yield models</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>15% reduction in revenue leakage through metro-level sales forecasting</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200">
+                <div className="text-center">
+                  <p className="text-slate-600 mb-4">
+                    Additional leadership roles at Good Money, Sketchy, and Conversant
+                  </p>
+                  <a
+                    href="https://linkedin.com/in/mattstrautmann"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-blue-600 hover:underline font-semibold"
+                  >
+                    View full experience on LinkedIn
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Side Projects & Building in Public */}
           {featuredProjects.length > 0 && (
             <section className="mb-16">
               <div className="flex items-center gap-3 mb-8">
                 <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
-                <h2 className="text-3xl font-bold text-slate-900">Featured Projects</h2>
+                <h2 className="text-3xl font-bold text-slate-900">Building in Public</h2>
               </div>
+              <p className="text-slate-600 mb-8 max-w-3xl">
+                Beyond my executive work, I build developer tools and experiment with new technologies.
+                Here's what I'm working on:
+              </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {featuredProjects.map((project) => (
