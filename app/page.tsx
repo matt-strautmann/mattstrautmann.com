@@ -23,8 +23,8 @@ export default function Home() {
       { "@type": "Organization", "name": "Good Money" },
       { "@type": "Organization", "name": "Conversant" }
     ],
-    knowsAbout: ["Artificial Intelligence", "Machine Learning", "Data Strategy", "Enterprise Data Platforms", "Developer Tools"],
-    description: "AI & Data executive. Head of Data at PostPilot. Former Airbnb, Braze. Built ML platforms that delivered 80% efficiency gains and $100K+ revenue impact. Now building SBDK - developer tools for the next generation.",
+    knowsAbout: ["Artificial Intelligence", "Machine Learning", "Data Strategy", "Enterprise Data Platforms", "Developer Tools", "Open Source"],
+    description: "AI & Data executive. Head of Data at PostPilot. Former Airbnb, Braze. Built ML platforms that delivered 80% efficiency gains and $100K+ revenue impact. Now building SBDK - open source developer tools for the next generation.",
   };
 
   const featuredProjects = projects.filter(p => p.featured);
@@ -90,7 +90,7 @@ export default function Home() {
               {/* Clear Value Proposition */}
               <div className="mb-6">
                 <span className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  AI & Data Leadership | Building in Public
+                  AI & Data Leadership | Building Open Source
                 </span>
               </div>
 
@@ -107,7 +107,7 @@ export default function Home() {
                 <a href="https://sbdk.dev" className="text-blue-600 hover:underline font-semibold" target="_blank" rel="noopener noreferrer">
                   SBDK
                 </a>
-                {" "}— developer tools for the next generation.
+                {" "}— open source developer tools for the next generation.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -142,7 +142,7 @@ export default function Home() {
                   <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
-                  <span><strong>Building</strong> dev tools</span>
+                  <span><strong>Building</strong> open source</span>
                 </div>
               </div>
             </div>
@@ -250,16 +250,16 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Side Projects & Building in Public */}
+          {/* Open Source Projects */}
           {featuredProjects.length > 0 && (
             <section className="mb-16">
               <div className="flex items-center gap-3 mb-8">
                 <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
-                <h2 className="text-3xl font-bold text-slate-900">Building in Public</h2>
+                <h2 className="text-3xl font-bold text-slate-900">Open Source Projects</h2>
               </div>
               <p className="text-slate-600 mb-8 max-w-3xl">
-                Beyond my executive work, I build developer tools and experiment with new technologies.
-                Here's what I'm working on:
+                Beyond my executive work, I build and maintain open source developer tools.
+                All code is publicly available on GitHub — contributions welcome.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -274,8 +274,11 @@ export default function Home() {
 
                     <div className="relative">
                       <div className="flex items-start justify-between mb-4">
-                        <span className="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-100 px-3 py-1 rounded-full">
-                          Featured
+                        <span className="text-xs font-bold text-green-700 uppercase tracking-wider bg-green-100 px-3 py-1 rounded-full flex items-center gap-1.5">
+                          <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                          </svg>
+                          Open Source
                         </span>
                         <svg className="w-6 h-6 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -303,11 +306,11 @@ export default function Home() {
 
                       <div className="flex items-center gap-4 text-sm text-slate-500">
                         {project.github && (
-                          <span className="flex items-center gap-1.5">
+                          <span className="flex items-center gap-1.5 font-medium">
                             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                               <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
                             </svg>
-                            Code
+                            View Source
                           </span>
                         )}
                         {project.demo && (
