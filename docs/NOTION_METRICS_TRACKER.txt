@@ -1,0 +1,241 @@
+===========================================
+NOTION METRICS DASHBOARD
+===========================================
+
+Create a Notion table with these columns:
+- Metric (Text)
+- Week 1 (Number)
+- Week 2 (Number)
+- Week 3 (Number)
+- Week 4 (Number)
+- Target (Number)
+- Status (Select: On Track / Behind / Exceeded)
+
+Copy these rows:
+
+---
+
+GITHUB METRICS
+---
+
+Metric: GitHub Stars
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 100
+Status:
+
+---
+
+Metric: GitHub Forks
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 20
+Status:
+
+---
+
+Metric: GitHub Issues Opened
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 5
+Status:
+
+---
+
+Metric: GitHub PRs Received
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 3
+Status:
+
+---
+
+Metric: GitHub Unique Visitors
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 500
+Status:
+
+---
+
+LINKEDIN METRICS
+---
+
+Metric: Post Impressions
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 10000
+Status:
+
+---
+
+Metric: Post Engagements
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 500
+Status:
+
+---
+
+Metric: Profile Views
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 300
+Status:
+
+---
+
+Metric: New Connections
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 50
+Status:
+
+---
+
+Metric: Comments on Posts
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 30
+Status:
+
+---
+
+PORTFOLIO METRICS
+---
+
+Metric: Unique Visitors
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 1000
+Status:
+
+---
+
+Metric: Average Time on Page (minutes)
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 2.0
+Status:
+
+---
+
+Metric: Bounce Rate (%)
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 60
+Status:
+
+---
+
+Metric: Pages per Session
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 2.5
+Status:
+
+---
+
+ENGAGEMENT METRICS
+---
+
+Metric: Email/DM Inquiries
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 10
+Status:
+
+---
+
+Metric: Community Contributions
+Week 1:
+Week 2:
+Week 3:
+Week 4:
+Target: 5
+Status:
+
+---
+
+===========================================
+HOW TO TRACK THESE METRICS
+===========================================
+
+GITHUB:
+- Go to your repo → Insights → Traffic
+- Check: Unique visitors, clones, popular content
+- Stars/Forks: Visible on main repo page
+- Issues/PRs: In respective tabs
+
+LINKEDIN:
+- After each post: Click "View analytics"
+- Impressions: How many people saw it
+- Engagements: Likes, comments, shares, clicks
+- Profile views: LinkedIn profile → Analytics tab
+- Connections: LinkedIn → My Network
+
+PORTFOLIO (Vercel Analytics):
+- Vercel dashboard → Your project → Analytics
+- Or use Google Analytics if installed
+- Unique visitors, time on page, bounce rate
+- Real-time data available
+
+UPDATE FREQUENCY:
+- Update every Friday
+- Weekly review of trends
+- Monthly deep dive
+- Adjust strategy based on what's working
+
+===========================================
+SUCCESS CRITERIA
+===========================================
+
+WEEK 1 SUCCESS:
+✓ 50+ GitHub stars
+✓ 500+ portfolio visitors
+✓ 5,000+ LinkedIn impressions
+✓ 20+ new connections
+
+MONTH 1 SUCCESS:
+✓ 100+ GitHub stars
+✓ 2,000+ portfolio visitors
+✓ 15,000+ LinkedIn impressions
+✓ 50+ new connections
+✓ 5+ meaningful conversations/collaborations
+
+QUARTER 1 SUCCESS:
+✓ 250+ GitHub stars
+✓ 5,000+ portfolio visitors
+✓ 50,000+ LinkedIn impressions
+✓ 150+ new connections
+✓ 1+ speaking opportunity or feature

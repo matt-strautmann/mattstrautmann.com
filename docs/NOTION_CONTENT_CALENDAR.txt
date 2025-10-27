@@ -1,0 +1,121 @@
+===========================================
+NOTION CONTENT CALENDAR
+===========================================
+
+Copy this into a Notion database with these properties:
+- Title (Text)
+- Post Type (Select)
+- Status (Select)
+- Publish Date (Date)
+- Expected Engagement (Select)
+- Actual Results (Text)
+
+---
+
+POST 1
+---
+Title: Portfolio Launch Announcement
+Post Type: Announcement
+Status: Draft
+Publish Date: [Launch Day - Monday]
+Expected Engagement: High
+Notes: First post, maximum visibility, include question at end
+See: NOTION_LINKEDIN_POSTS.txt - Post 1
+
+---
+
+POST 2
+---
+Title: How to Optimize for AI Search Engines
+Post Type: Educational
+Status: Draft
+Publish Date: [Week 1 - Thursday]
+Expected Engagement: Medium-High
+Notes: Technical deep dive, actionable tips
+See: NOTION_LINKEDIN_POSTS.txt - Post 2
+
+---
+
+POST 3
+---
+Title: 6 Days to 30 Seconds Case Study
+Post Type: Results/Case Study
+Status: Draft
+Publish Date: [Week 2 - Tuesday]
+Expected Engagement: High
+Notes: Specific metrics, tech stack, lessons learned
+See: NOTION_LINKEDIN_POSTS.txt - Post 3
+
+---
+
+POST 4
+---
+Title: Career Growth Story
+Post Type: Personal/Story
+Status: Draft
+Publish Date: [Week 2 - Friday]
+Expected Engagement: Medium-High
+Notes: Relatable, lesson-focused, builds connection
+See: NOTION_LINKEDIN_POSTS.txt - Post 4
+
+---
+
+POST 5
+---
+Title: Free AEO Documentation
+Post Type: Resource
+Status: Draft
+Publish Date: [Week 3 - Tuesday]
+Expected Engagement: Medium
+Notes: Quick value delivery, shareable
+See: NOTION_LINKEDIN_POSTS.txt - Post 5
+
+---
+
+POST 6
+---
+Title: Less Tools > More Tools
+Post Type: Discussion
+Status: Draft
+Publish Date: [Week 3 - Friday]
+Expected Engagement: High
+Notes: Controversial opinion, sparks debate
+See: NOTION_LINKEDIN_POSTS.txt - Post 6
+
+---
+
+POST 7
+---
+Title: Week 1 Stats - Building in Public
+Post Type: Transparency
+Status: Draft
+Publish Date: [Week 4 - Tuesday]
+Expected Engagement: Medium-High
+Notes: Real data, authenticity, community building
+See: NOTION_LINKEDIN_POSTS.txt - Post 7
+
+===========================================
+ENGAGEMENT GUIDE
+===========================================
+
+Best Posting Times:
+- Tuesday-Thursday
+- 8-10 AM ET
+- Avoid Monday mornings and Friday afternoons
+
+Engagement Strategy:
+- Respond to comments within 2 hours
+- Ask follow-up questions
+- Tag relevant people (sparingly)
+- Share others' content too (80/20 rule)
+
+Hashtag Strategy:
+- Use 3-5 hashtags max
+- Mix popular (#AI, #OpenSource) with niche (#AEO, #BuildInPublic)
+- Put hashtags at the end, not scattered throughout
+
+Question Frameworks:
+- "What's your experience with X?"
+- "Agree or disagree?"
+- "What are you working on?"
+- "What surprised you most about Y?"

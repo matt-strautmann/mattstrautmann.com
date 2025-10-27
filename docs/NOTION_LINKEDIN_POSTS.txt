@@ -1,0 +1,268 @@
+===========================================
+LINKEDIN POST 1: PORTFOLIO LAUNCH
+===========================================
+
+Just open sourced my portfolio + everything I've learned about AI optimization 🚀
+
+After 10+ years building ML platforms at Airbnb and Braze, I'm sharing it all:
+
+✅ How I reduced reporting time from 6 days to 30 seconds
+✅ The AEO techniques that make AI assistants understand your work
+✅ Complete code + documentation (MIT licensed)
+
+What makes it different:
+• Schema.org structured data for AI crawlers
+• llms.txt file (helps ChatGPT/Claude discover you)
+• Fletch PMM messaging framework
+• Justin Welch content principles
+
+Perfect for:
+→ Developers building portfolios
+→ Data leaders sharing their work
+→ Anyone who wants AI to understand their projects
+
+🔗 Live: mattstrautmann.com
+💻 Code: github.com/matt-strautmann/mattstrautmann.com
+
+Built in public. Documented everything. Use it as a template.
+
+#OpenSource #AI #DataScience #BuildInPublic #Portfolio
+
+What's one thing you wish AI assistants knew about your work?
+
+===========================================
+LINKEDIN POST 2: TECHNICAL DEEP DIVE
+===========================================
+
+Most portfolios are invisible to AI.
+
+Here's what I learned optimizing mine for ChatGPT, Claude, and Perplexity:
+
+The problem:
+Traditional SEO doesn't work for AI search engines. Google looks at backlinks and keywords. AI looks at structured data and semantic meaning.
+
+What actually works:
+
+1️⃣ Schema.org structured data
+Not just meta tags. Full Person and SoftwareSourceCode schemas. AI needs context about WHO you are and WHAT you've built.
+
+2️⃣ llms.txt file
+New standard (proposed by Jeremy Howard). Think robots.txt for AI. Tells crawlers exactly how to present you.
+
+3️⃣ Semantic HTML hierarchy
+H1 → H2 → H3 matters more than ever. AI uses heading structure to understand importance and relationships.
+
+4️⃣ Natural language content
+Write how you'd explain to a person. AI training data is conversations, not keyword-stuffed pages.
+
+The result:
+When someone asks ChatGPT "who built an AI-optimized portfolio?", your name shows up.
+
+I documented the entire approach:
+→ github.com/matt-strautmann/mattstrautmann.com
+
+What surprised me most: llms.txt had the biggest impact despite being the simplest.
+
+Are you optimizing for AI search? What's working for you?
+
+#SEO #AEO #AI #DeveloperTools
+
+===========================================
+LINKEDIN POST 3: RESULTS STORY
+===========================================
+
+From 6 days to 30 seconds.
+
+That's not an exaggeration. It's what happened when we rebuilt executive reporting at Braze with LLMs.
+
+The old way:
+• Data analysts pull raw data (2 days)
+• Clean and transform (1 day)
+• Build dashboards (1 day)
+• Write summaries (1 day)
+• Review and revise (1 day)
+= 6 days minimum
+
+The new way:
+• LLM queries data warehouse directly
+• Generates insights in natural language
+• Creates visualizations automatically
+• Delivers personalized summaries
+= 30 seconds
+
+The impact:
+✅ 80% efficiency gain
+✅ Real-time insights instead of weekly
+✅ Team focuses on strategy, not reporting
+✅ Executives actually read the reports
+
+The tech stack:
+• LangChain for orchestration
+• Snowflake for data warehouse
+• GPT-4 for analysis
+• dbt for transformations
+
+The hardest part:
+Not the code. Getting buy-in that "30 seconds" wasn't too good to be true.
+
+Now I'm packaging these lessons into open source tools: mattstrautmann.com
+
+What manual process are you automating next with AI?
+
+#AI #DataEngineering #Automation #MLOps
+
+===========================================
+LINKEDIN POST 4: PERSONAL STORY
+===========================================
+
+10 years ago, I couldn't get my data team to adopt Git.
+
+Today, I'm Head of Data at PostPilot.
+
+What changed wasn't the tools. It was the approach.
+
+Early career mistake:
+Pushing tools because I thought they were "better." Complaining when people didn't adopt them.
+
+The shift:
+Started asking: "What problem are you trying to solve?"
+
+Turns out:
+• They didn't need Git. They needed version control for notebooks.
+• They didn't need Airflow. They needed reliable scheduling.
+• They didn't need Kubernetes. They needed deployments that worked.
+
+Same outcome. Different path.
+
+Now when I build data platforms, I start with:
+1. What's broken today?
+2. What's the minimum change to fix it?
+3. How do we measure success?
+
+The results speak:
+✅ 80% efficiency gains (Braze)
+✅ $100K+ revenue impact (Sketchy)
+✅ Multi-million $ growth (Airbnb)
+
+Not because of fancy tools.
+Because we solved actual problems.
+
+I'm sharing everything I've learned at mattstrautmann.com
+
+What's one tool you thought you needed but didn't?
+
+#Leadership #DataStrategy #TechLeadership
+
+===========================================
+LINKEDIN POST 5: RESOURCE SHARE
+===========================================
+
+Free resource: My complete AEO optimization guide
+
+Just open sourced the docs explaining how I optimized my portfolio for AI search engines.
+
+Inside:
+📄 Setup checklist (GitHub optimization)
+📄 Backlink strategy (90-day plan)
+📄 LinkedIn growth guide (Justin Welch framework)
+📄 Content optimization (Fletch PMM principles)
+📄 Contributing guidelines
+
+All available at:
+github.com/matt-strautmann/mattstrautmann.com/tree/main/docs
+
+My favorite: The content optimization doc shows before/after messaging with explanations.
+
+Bookmark this if you're building a portfolio or personal site.
+
+#Resources #FreebieAlert #OpenSource #Developers
+
+===========================================
+LINKEDIN POST 6: HOT TAKE / DISCUSSION
+===========================================
+
+Hot take: Most data leaders don't need more tools.
+
+They need less.
+
+I've worked at companies with:
+→ 47 different analytics tools
+→ 12 data warehouses
+→ 8 BI platforms
+
+All running simultaneously.
+
+The result:
+• No single source of truth
+• Teams paralyzed by choice
+• More time maintaining tools than delivering insights
+
+What actually works:
+
+1. Pick ONE data warehouse (Snowflake or BigQuery)
+2. Pick ONE transformation tool (dbt)
+3. Pick ONE BI tool (Looker or Tableau)
+4. Ship it
+
+Then don't add anything for 6 months.
+
+Controversial? Maybe.
+
+But I've seen this approach deliver:
+✅ Faster time to insights
+✅ Higher adoption
+✅ Lower costs
+✅ Happier teams
+
+Simplicity scales. Complexity doesn't.
+
+Agree or disagree? What's your ideal data stack?
+
+#DataEngineering #DataStrategy #Debate
+
+===========================================
+LINKEDIN POST 7: BEHIND THE SCENES
+===========================================
+
+Building in public: Week 1 stats
+
+Launched my open source portfolio on Monday.
+
+Here's what happened:
+
+📊 GitHub:
+• 47 stars
+• 12 forks
+• 3 PRs submitted
+• 156 unique visitors
+
+📊 LinkedIn:
+• 2,847 impressions
+• 213 engagements
+• 19 new connections
+
+📊 Portfolio:
+• 412 unique visitors
+• 2:34 avg time on page
+• 23% viewed code
+• 8% clicked SBDK
+
+What surprised me:
+
+1. Most traffic came from developers, not recruiters
+2. The AEO documentation got more interest than the code
+3. People care about the "why" behind decisions
+
+What I learned:
+
+✅ Share the process, not just the outcome
+✅ Documentation is a feature, not a chore
+✓ Open source builds trust faster than anything
+
+Next week: Adding case studies and testimonials.
+
+Following along? mattstrautmann.com
+
+What metrics do you track when building in public?
+
+#BuildInPublic #OpenSource #Transparency
