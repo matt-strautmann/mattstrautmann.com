@@ -92,7 +92,7 @@ What I'm Building in the Open (Value Props)
 Open source tools packaging 10+ years of lessons
 ↓
 Building something in AI/Data? (Targeted CTA)
-Clear next steps - LinkedIn, GitHub, consulting
+Clear next steps - LinkedIn, GitHub, collaboration
 ```
 
 ---
@@ -199,14 +199,14 @@ Open to interesting projects and conversations.
 ```
 Building something in AI/Data?
 
-I share insights on LinkedIn, code on GitHub, and occasionally consult for the right opportunities.
+I share insights on LinkedIn and code on GitHub. Let's connect and build together.
 ```
 
 **Why Better:**
 - Targets specific audience
-- Multiple touchpoints (LinkedIn, GitHub, consulting)
-- Sets expectations ("occasionally")
-- Actionable
+- Multiple touchpoints (LinkedIn, GitHub)
+- Collaborative tone ("build together")
+- Actionable and welcoming
 
 ---
 
@@ -253,7 +253,7 @@ I share insights on LinkedIn, code on GitHub, and occasionally consult for the r
    → Open source tools
 
 5. ACTION (Make it easy to engage)
-   → LinkedIn, GitHub, consulting
+   → LinkedIn, GitHub, collaboration
 ```
 
 This follows both:
@@ -312,7 +312,7 @@ This follows both:
 ### Long-term (Next quarter):
 7. Newsletter integration
 8. Resource library
-9. Speaking/consulting page
+9. Speaking engagements page
 
 ---
 

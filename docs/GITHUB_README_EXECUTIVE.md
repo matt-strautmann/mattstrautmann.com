@@ -136,7 +136,7 @@ This makes me effective at translating business problems into technical solution
 ## 📫 Let's Connect
 
 **For:**
-- 💼 Executive roles or consulting → [LinkedIn](https://linkedin.com/in/mattstrautmann)
+- 💼 Career opportunities → [LinkedIn](https://linkedin.com/in/mattstrautmann)
 - 💬 Technical discussions → [GitHub](https://github.com/matt-strautmann)
 - 🌐 Full background → [Portfolio](https://mattstrautmann.com)
 - 📚 Tools I use → [Resources](https://mattstrautmann.com/resources)
