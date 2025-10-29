@@ -66,20 +66,24 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 ### Analytics Setup (PostHog)
 
+**If you're using this as a template:** You'll need to create your own free PostHog account at [posthog.com/signup](https://posthog.com/signup). Don't use someone else's API key - each project needs its own analytics instance.
+
 To enable analytics tracking:
+
+1. **Create a PostHog account** (if you haven't already)
+2. **Get your API key** from [https://app.posthog.com/project/settings](https://app.posthog.com/project/settings)
+3. **Set up locally:**
 
 ```bash
 # Copy the example environment file
 cp .env.example .env.local
 
-# Edit .env.local and add your PostHog credentials:
-# NEXT_PUBLIC_POSTHOG_KEY=phc_your_project_api_key_here
-# NEXT_PUBLIC_POSTHOG_HOST=https://us.i.posthog.com
+# Edit .env.local and add YOUR PostHog credentials:
+NEXT_PUBLIC_POSTHOG_KEY=phc_your_actual_key_here
+NEXT_PUBLIC_POSTHOG_HOST=https://us.i.posthog.com
 ```
 
-Get your PostHog API key from [https://app.posthog.com/project/settings](https://app.posthog.com/project/settings)
-
-**Note:** Analytics will only work when both environment variables are set.
+**Note:** Analytics will only work when both environment variables are set. If you don't want analytics, the site works fine without them.
 
 ### Build for Production
 
@@ -203,14 +207,32 @@ Search and replace color classes to rebrand.
 ### Vercel (Recommended)
 
 1. **Push to GitHub** ✅ (You're already here!)
+
 2. **Import to Vercel**
    - Go to [vercel.com/new](https://vercel.com/new)
-   - Select this repository
-   - Add environment variables:
-     - `NEXT_PUBLIC_POSTHOG_KEY` - Your PostHog project API key
-     - `NEXT_PUBLIC_POSTHOG_HOST` - `https://us.i.posthog.com` (or your PostHog instance URL)
-   - Click Deploy
-3. **Done!** Auto-deployed with HTTPS + CDN + Analytics
+   - Click "Import" next to your repository
+   - Configure your project (defaults are usually fine)
+
+3. **Add Environment Variables** (for analytics)
+   - In the deployment configuration, expand "Environment Variables"
+   - Add these two variables:
+     - Name: `NEXT_PUBLIC_POSTHOG_KEY` | Value: `phc_your_key_from_posthog`
+     - Name: `NEXT_PUBLIC_POSTHOG_HOST` | Value: `https://us.i.posthog.com`
+   - Select "Production" environment
+   - Click "Add" for each variable
+
+4. **Deploy**
+   - Click "Deploy"
+   - Wait 2-3 minutes for build to complete
+   - Your site is live! 🎉
+
+**To update environment variables later:**
+1. Go to your Vercel project dashboard
+2. Settings → Environment Variables
+3. Edit or add new variables
+4. Redeploy from the Deployments tab (or it will auto-deploy on next push)
+
+**Important:** The variables MUST start with `NEXT_PUBLIC_` to work in the browser!
 
 ### Other Platforms
 
