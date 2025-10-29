@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Matt Strautmann - AI & Data Leader",
   description: "Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.",
   metadataBase: new URL('https://mattstrautmann.com'),
+  verification: {
+    google: 'MEH2NpqfcfafbioMPzOqGdXM8h0ty6uHiQYfG5R_P48',
+  },
   icons: {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml' },
