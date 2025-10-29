@@ -131,15 +131,15 @@ Your README already has these badges:
 
 ---
 
-## 🛠️ SBDK Repository
+## 🛠️ SBDK Repository (When Created)
 
-**URL:** https://github.com/sbdk-dev/sbdk-dev
+**URL:** https://github.com/sbdk-dev/sbdk-dev (or similar)
 
 ### About Section
 
 **Description:**
 ```
-Local Data Pipeline Development Kit - Open source local-first data pipeline toolkit for rapid development of enterprise-grade data processing systems. Built with Python, DuckDB, dbt, and DLT. By Matt Strautmann.
+Software Builder Development Kit - Open source toolkit for building software projects faster. TypeScript-first with full type safety. By Matt Strautmann.
 ```
 
 **Website:**
@@ -149,20 +149,21 @@ https://sbdk.dev
 
 **Topics:**
 ```
-data-engineering
-python
-duckdb
-dbt
-etl
-open-source
 developer-tools
-data-pipeline
-local-first
-analytics
-devtools
-workflow
-automation
+typescript
+sdk
+open-source
+developer-experience
+dx
+toolkit
 productivity
+automation
+devtools
+javascript
+nodejs
+cli
+build-tools
+workflow
 ```
 
 ---
@@ -182,9 +183,9 @@ productivity
 **Essential sections for SBDK:**
 
 ```markdown
-# SBDK - Local Data Pipeline Development Kit
+# SBDK - Software Builder Development Kit
 
-> Local-first data pipeline toolkit for rapid development
+> Fast, type-safe toolkit for building software projects
 
 [![npm version](https://img.shields.io/npm/v/sbdk)](https://www.npmjs.com/package/sbdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -198,19 +199,17 @@ productivity
 
 ## Features
 
-- ✅ Complete data pipeline setup in 30 seconds
-- ✅ Local processing with full data sovereignty
-- ✅ Real-time pipeline monitoring through visual terminal UI
-- ✅ Hot-reload development with automatic re-execution
-- ✅ Built-in synthetic data generation and query helpers
+- ✅ TypeScript-first with full type safety
+- ✅ Zero config required
+- ✅ [Feature 2]
+- ✅ [Feature 3]
 
 ## Quick Start
 
 \`\`\`bash
-uv pip install sbdk-dev
-sbdk init my-project
-cd my-project
-sbdk run
+npm install sbdk
+# or
+yarn add sbdk
 \`\`\`
 
 ## Documentation
@@ -241,10 +240,9 @@ MIT © [Matt Strautmann](https://mattstrautmann.com)
 **Text to include:**
 ```
 SBDK
-Local Data Pipeline Development Kit
+Software Builder Development Kit
 
-Local-first data pipeline toolkit for enterprise-grade data processing
-Python • DuckDB • dbt • DLT
+TypeScript-first toolkit for faster development
 By Matt Strautmann
 ```
 
@@ -256,7 +254,7 @@ By Matt Strautmann
 
 **Already has this in About the Author section:**
 ```markdown
-Now building [SBDK](https://sbdk.dev) - open source local data pipeline toolkit for rapid development.
+Now building [SBDK](https://sbdk.dev) - open source developer tools for the next generation.
 ```
 
 **In project descriptions:**

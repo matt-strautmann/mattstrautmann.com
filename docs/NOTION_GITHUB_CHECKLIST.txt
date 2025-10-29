@@ -1,0 +1,257 @@
+===========================================
+GITHUB REPOSITORY OPTIMIZATION
+===========================================
+
+Create a Notion board with columns: To Do | In Progress | Done
+
+---
+
+MATTSTRAUTMANN.COM REPOSITORY
+---
+
+CARD 1: Update Repository Description
+Status: To Do
+
+Steps:
+□ Go to https://github.com/matt-strautmann/mattstrautmann.com
+□ Click ⚙️ gear icon next to "About" section
+□ Add description (see below)
+□ Add website URL
+□ Click "Save changes"
+
+DESCRIPTION:
+Personal portfolio showcasing open source projects. Built with Next.js, TypeScript, and Tailwind CSS. Optimized for AI search engines (AEO) with Schema.org and llms.txt.
+
+WEBSITE URL:
+https://mattstrautmann.com
+(or your Vercel URL)
+
+---
+
+CARD 2: Add Topics/Tags
+Status: To Do
+
+Steps:
+□ Click "Add topics" below description
+□ Add each topic below (one at a time or paste all)
+□ Click "Done"
+
+TOPICS TO ADD:
+portfolio
+nextjs
+typescript
+tailwindcss
+open-source
+seo
+ai-optimization
+schema-org
+react
+vercel
+developer-portfolio
+personal-website
+template
+aeo
+static-site
+
+(15 total - GitHub recommends 10-20)
+
+---
+
+CARD 3: Upload Social Preview Image
+Status: To Do
+
+Steps:
+□ Create image 1280x640 pixels
+□ Include: Your name, tagline, tech stack
+□ Go to Settings → General → Social preview
+□ Click "Upload an image"
+□ Select your image
+□ Click "Save changes"
+
+IMAGE TEXT:
+Matt Strautmann
+AI & Data Executive Building Open Source
+
+Portfolio optimized for AI search engines
+Next.js • TypeScript • Tailwind CSS
+
+TOOLS TO CREATE:
+- Canva.com (free templates)
+- Figma (custom design)
+- Photoshop/Similar
+
+---
+
+CARD 4: Enable Repository Features
+Status: To Do
+
+Steps:
+□ Go to Settings → General → Features
+□ Check ✅ Issues
+□ Check ✅ Discussions (optional)
+□ Scroll to "Danger Zone" (at bottom)
+□ Check ✅ Template repository
+□ Click "Save changes"
+
+WHY:
+- Issues: Let people report bugs/request features
+- Discussions: Community Q&A
+- Template: Let others use as starting point
+
+---
+
+CARD 5: Verify Visibility
+Status: To Do
+
+Steps:
+□ Search GitHub for: "nextjs portfolio aeo"
+□ Check if your repo appears
+□ Visit https://github.com/topics/portfolio
+□ Look for your repo in the list
+□ Share repo URL on LinkedIn
+□ Verify social preview shows
+
+URLS TO CHECK:
+- https://github.com/topics/portfolio
+- https://github.com/topics/nextjs
+- https://github.com/topics/aeo
+- https://github.com/topics/open-source
+
+---
+
+SBDK REPOSITORY (When Created)
+---
+
+CARD 6: SBDK Description
+Status: To Do
+
+DESCRIPTION:
+Software Builder Development Kit - Open source toolkit for building software projects faster. TypeScript-first with full type safety. By Matt Strautmann.
+
+WEBSITE:
+https://sbdk.dev
+
+TOPICS:
+developer-tools
+typescript
+sdk
+open-source
+developer-experience
+dx
+toolkit
+productivity
+automation
+devtools
+
+---
+
+CARD 7: Cross-Link Repositories
+Status: To Do
+
+Steps:
+□ In SBDK README, add footer linking to portfolio
+□ In portfolio, ensure SBDK is featured
+□ All repos link back to mattstrautmann.com
+
+FOOTER TEMPLATE FOR ALL REPOS:
+---
+
+Built by [Matt Strautmann](https://mattstrautmann.com)
+
+AI & Data Executive building open source
+- Portfolio: [mattstrautmann.com](https://mattstrautmann.com)
+- LinkedIn: [linkedin.com/in/mattstrautmann](https://linkedin.com/in/mattstrautmann)
+- GitHub: [@matt-strautmann](https://github.com/matt-strautmann)
+
+---
+
+MIT License © 2025 Matt Strautmann
+
+---
+
+===========================================
+COPY/PASTE VALUES
+===========================================
+
+GITHUB DESCRIPTION:
+Personal portfolio showcasing open source projects. Built with Next.js, TypeScript, and Tailwind CSS. Optimized for AI search engines (AEO) with Schema.org and llms.txt.
+
+---
+
+WEBSITE URL:
+https://mattstrautmann.com
+
+---
+
+TOPICS (comma-separated):
+portfolio, nextjs, typescript, tailwindcss, open-source, seo, ai-optimization, schema-org, react, vercel, developer-portfolio, personal-website, template, aeo, static-site
+
+---
+
+SOCIAL PREVIEW TEXT:
+Matt Strautmann
+AI & Data Executive Building Open Source
+
+Portfolio optimized for AI search engines
+Next.js • TypeScript • Tailwind CSS
+
+---
+
+===========================================
+VERIFICATION CHECKLIST
+===========================================
+
+After completing all cards, verify:
+
+BASIC:
+□ Repository is public
+□ Description is clear and complete
+□ Website URL is added
+□ All 15 topics added
+□ Social preview image uploaded
+□ Issues enabled
+□ Template repository enabled
+
+VISIBILITY:
+□ Repo appears in GitHub search
+□ Repo listed on topic pages
+□ Social preview shows on LinkedIn
+□ "Use this template" button visible
+□ README is comprehensive
+
+COMMUNITY:
+□ LICENSE file present (MIT)
+□ CONTRIBUTING.md exists
+□ Issue templates created
+□ All links working
+□ No broken images
+
+METRICS:
+□ GitHub Insights enabled
+□ Can track: Views, Clones, Visitors
+□ Stars/Forks visible
+□ Traffic data available after 2 weeks
+
+---
+
+===========================================
+SUCCESS METRICS
+===========================================
+
+WEEK 1:
+□ 100+ views
+□ 50+ unique visitors
+□ 10+ stars
+□ 5+ clones
+
+MONTH 1:
+□ 1,000+ views
+□ 500+ unique visitors
+□ 100+ stars
+□ 20+ forks
+□ 5+ issues
+□ 3+ PRs
+
+CHECK METRICS:
+Repository → Insights → Traffic
+(Data available after 14 days)

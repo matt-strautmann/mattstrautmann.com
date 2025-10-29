@@ -16,24 +16,22 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "sbdk",
-    title: "SBDK - Local Data Pipeline Development Kit",
-    description: "Open source local-first data pipeline toolkit for rapid development of enterprise-grade data processing systems",
-    longDescription: `SBDK is a local-first data pipeline toolkit that enables data engineers to build, test, and iterate on data pipelines on their local machines in seconds—without cloud dependencies or infrastructure costs.
+    title: "SBDK - Software Builder Development Kit",
+    description: "A comprehensive development kit for building software projects faster and more efficiently",
+    longDescription: `SBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help developers build better software faster.
 
-Built on industry-standard tools (DLT, dbt, and DuckDB), SBDK provides a complete ETL environment that initializes in 30 seconds with hot-reload development for instant feedback. The toolkit achieves 396K+ operations per second with a sub-500MB memory footprint—dramatically lighter than traditional cloud-based data stacks.
+The kit includes pre-configured setups for common development tasks, best-practice implementations, and tools that reduce boilerplate code. SBDK is built with TypeScript for excellent developer experience and type safety.
 
 Key features include:
-- Complete data pipeline setup in 30 seconds
-- Local processing with full data sovereignty
-- Real-time pipeline monitoring through visual terminal UI
-- Hot-reload development with automatic re-execution
-- Built-in synthetic data generation and query helpers
-- 11x faster installation than pip using uv package manager
-- Zero monthly costs compared to cloud alternatives
+- Modular architecture for easy customization
+- TypeScript-first with full type definitions
+- Comprehensive documentation and examples
+- Active development and community support
+- Integration with popular frameworks and tools
 
-MIT-licensed and permanently free for core functionality, SBDK serves data engineers, analytics teams, startups, and enterprises seeking to avoid vendor lock-in while maintaining development velocity and compliance requirements.`,
-    tags: ["data-engineering", "python", "open-source", "etl", "developer-tools"],
-    techStack: ["Python", "DuckDB", "dbt", "DLT"],
+Whether you're starting a new project or enhancing an existing one, SBDK provides the building blocks you need to accelerate development while maintaining code quality.`,
+    tags: ["developer-tools", "typescript", "open-source", "sdk"],
+    techStack: ["TypeScript", "Node.js"],
     github: "https://github.com/sbdk-dev/sbdk-dev",
     website: "https://sbdk.dev",
     featured: true,

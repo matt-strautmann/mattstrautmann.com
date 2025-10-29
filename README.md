@@ -335,7 +335,7 @@ AI & Data Leader building open source developer tools
 - $100K+ revenue impact through data-driven solutions
 - 10+ years leading data teams at top tech companies
 
-Now building [SBDK](https://sbdk.dev) - open source local data pipeline toolkit for rapid development.
+Now building [SBDK](https://sbdk.dev) - open source developer tools for the next generation.
 
 ---
 

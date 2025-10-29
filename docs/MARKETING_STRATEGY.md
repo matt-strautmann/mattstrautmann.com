@@ -418,11 +418,11 @@ Next.js • TypeScript • Tailwind CSS
 
 ---
 
-### SBDK Repository
+### SBDK Repository (When Created)
 
 **Description (About Section):**
 ```
-Local Data Pipeline Development Kit - Open source local-first data pipeline toolkit for rapid development of enterprise-grade data processing systems. Built with Python, DuckDB, dbt, and DLT. By Matt Strautmann.
+Software Builder Development Kit - Open source toolkit for building software projects faster. TypeScript-first with full type safety. By Matt Strautmann.
 ```
 
 **Website URL:**
@@ -432,7 +432,7 @@ https://sbdk.dev
 
 **Topics:**
 ```
-data-engineering, python, duckdb, dbt, etl, open-source, developer-tools, data-pipeline, local-first, analytics, devtools
+developer-tools, typescript, sdk, open-source, developer-experience, dx, toolkit, productivity, automation, devtools
 ```
 
 ---

@@ -1,0 +1,293 @@
+===========================================
+4-WEEK LAUNCH TIMELINE
+===========================================
+
+Create a Notion timeline or calendar view with these tasks.
+Each task has: Title, Date, Status (To Do/In Progress/Done), Notes
+
+---
+
+WEEK 0: PRE-LAUNCH PREP
+---
+
+Task: Deploy to Vercel Production
+Date: [Today]
+Status: To Do
+Notes: Get final production URL, test everything works
+
+---
+
+Task: Complete GitHub Settings
+Date: [Today]
+Status: To Do
+Notes: Description, topics, enable Issues, social preview image
+
+---
+
+Task: Update LinkedIn Profile
+Date: [Today]
+Status: To Do
+Notes: Add portfolio to Featured, update headline if needed
+
+---
+
+Task: Create Social Preview Images
+Date: [Today]
+Status: To Do
+Notes: 1280x640px for GitHub, portfolio screenshot
+
+---
+
+Task: Write Launch Post
+Date: [Day Before Launch]
+Status: To Do
+Notes: Use Post 1 template, customize, schedule for Monday 9 AM
+
+---
+
+Task: Set Up Analytics
+Date: [Day Before Launch]
+Status: To Do
+Notes: Vercel Analytics, Google Search Console
+
+---
+
+WEEK 1: LAUNCH WEEK
+---
+
+Task: Deploy Portfolio Live
+Date: Monday 8 AM
+Status: To Do
+Notes: Final verification, all links working
+
+---
+
+Task: Publish LinkedIn Launch Post
+Date: Monday 9 AM
+Status: To Do
+Notes: Post 1 - Portfolio announcement
+
+---
+
+Task: Engage with Comments (30 min)
+Date: Monday 12 PM, 5 PM
+Status: To Do
+Notes: Respond to all comments within 2 hours
+
+---
+
+Task: Share in Reddit Communities
+Date: Wednesday 10 AM
+Status: To Do
+Notes: r/webdev, r/nextjs - genuine contribution, not spam
+
+---
+
+Task: Email Close Network
+Date: Thursday 9 AM
+Status: To Do
+Notes: Personal email to 10-15 close connections
+
+---
+
+Task: Publish Post 2 (Technical Deep Dive)
+Date: Thursday 9 AM
+Status: To Do
+Notes: AEO optimization guide
+
+---
+
+Task: First Metrics Review
+Date: Friday 3 PM
+Status: To Do
+Notes: Update Notion metrics dashboard, identify trends
+
+---
+
+WEEK 2: EDUCATION & STORIES
+---
+
+Task: Publish Post 3 (Results Story)
+Date: Tuesday 9 AM
+Status: To Do
+Notes: 6 days to 30 seconds case study
+
+---
+
+Task: Daily Engagement (15 min)
+Date: Daily
+Status: To Do
+Notes: Reply to comments, engage with others' content
+
+---
+
+Task: Publish Post 4 (Personal Story)
+Date: Friday 9 AM
+Status: To Do
+Notes: Career growth story
+
+---
+
+Task: Submit to awesome-nextjs
+Date: Friday 2 PM
+Status: To Do
+Notes: Fork, add to list, create PR
+
+---
+
+Task: Week 2 Metrics Review
+Date: Friday 4 PM
+Status: To Do
+Notes: Compare to Week 1, adjust strategy
+
+---
+
+WEEK 3: RESOURCES & DISCUSSION
+---
+
+Task: Publish Post 5 (Resource Share)
+Date: Tuesday 9 AM
+Status: To Do
+Notes: Free AEO documentation
+
+---
+
+Task: Respond to All GitHub Issues/PRs
+Date: Wednesday
+Status: To Do
+Notes: Community engagement, address all open items
+
+---
+
+Task: Publish Post 6 (Hot Take)
+Date: Friday 9 AM
+Status: To Do
+Notes: Discussion starter - engage heavily in comments
+
+---
+
+Task: Week 3 Metrics Review
+Date: Friday 4 PM
+Status: To Do
+Notes: Identify most engaging content type
+
+---
+
+WEEK 4: RECAP & PLAN
+---
+
+Task: Publish Post 7 (Behind the Scenes)
+Date: Tuesday 9 AM
+Status: To Do
+Notes: Real stats, transparency, what's next
+
+---
+
+Task: Engage with All Outstanding Threads
+Date: Wednesday
+Status: To Do
+Notes: Close loops, thank contributors
+
+---
+
+Task: Full Month Metrics Review
+Date: Friday
+Status: To Do
+Notes: Complete analysis, what worked, what didn't
+
+---
+
+Task: Plan Next 30 Days Content
+Date: Weekend
+Status: To Do
+Notes: Based on learnings, plan next month's strategy
+
+---
+
+===========================================
+DAILY ROUTINES
+===========================================
+
+EVERY MORNING (15 min):
+- Check GitHub notifications
+- Check LinkedIn notifications
+- Respond to urgent items
+- Plan today's engagement
+
+EVERY AFTERNOON (15 min):
+- Engage with 3-5 relevant posts
+- Reply to any new comments
+- Share valuable content from others
+
+EVERY EVENING (10 min):
+- Final comment check
+- Review today's metrics
+- Note any insights
+
+POST DAYS (Add 30 min):
+- Morning: Publish post
+- Midday: First engagement round
+- Evening: Second engagement round
+- Respond to ALL comments same day
+
+---
+
+===========================================
+WEEKLY CHECKLIST TEMPLATE
+===========================================
+
+Copy this for each week:
+
+MONDAY:
+□ Review last week's metrics
+□ Plan this week's posts (write or schedule)
+□ Respond to weekend comments/DMs
+□ Check GitHub issues
+
+TUESDAY:
+□ Publish scheduled post (if applicable)
+□ Engage with comments (30 min)
+□ Check GitHub activity
+□ Update metrics dashboard
+
+WEDNESDAY:
+□ Write/schedule next post
+□ Engage in 3-5 relevant discussions
+□ Share 1-2 useful resources
+□ Respond to all DMs
+
+THURSDAY:
+□ Publish scheduled post (if applicable)
+□ Engage with comments (30 min)
+□ Check portfolio analytics
+□ Community engagement
+
+FRIDAY:
+□ Weekly metrics review
+□ Respond to open threads
+□ Plan next week's content
+□ Update Notion boards
+□ Celebrate wins!
+
+WEEKEND (OPTIONAL):
+□ Passive engagement
+□ Work on next project/feature
+□ Document learnings
+□ Recharge
+
+---
+
+===========================================
+EMERGENCY RESPONSE TIMES
+===========================================
+
+RESPOND WITHIN:
+- GitHub Issues: 24 hours
+- GitHub PRs: 48 hours
+- LinkedIn Comments: 2 hours (same day)
+- LinkedIn DMs: 24 hours
+- Email: 48 hours
+
+EXCEPTION: Weekends
+- Can wait until Monday
+- Unless urgent/time-sensitive

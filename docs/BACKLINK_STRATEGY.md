@@ -55,7 +55,7 @@ Backlinks are links from other websites to yours. They're critical for:
 
 **SBDK Repository**
 ```markdown
-# SBDK - Local Data Pipeline Development Kit
+# SBDK - Software Builder Development Kit
 
 > By [Matt Strautmann](https://mattstrautmann.com) | [LinkedIn](https://linkedin.com/in/mattstrautmann)
 
@@ -78,9 +78,9 @@ Built with ❤️ by [Matt Strautmann](https://mattstrautmann.com)
 
 **Write and Share**
 - Write posts on LinkedIn about:
-  - Building SBDK (data pipeline development)
-  - Data engineering tips
-  - Lessons learned from building local-first tools
+  - Building SBDK
+  - Development tips
+  - Lessons learned
   - Always link to your portfolio in comments or profile
 
 **Dev Community Contributions**
@@ -102,9 +102,7 @@ Built with ❤️ by [Matt Strautmann](https://mattstrautmann.com)
 - awesome-nextjs
 - awesome-typescript
 - awesome-developer-tools
-- awesome-data-engineering
-- awesome-duckdb
-- awesome-python (when SBDK is ready)
+- awesome-indie (when SBDK is ready)
 
 **How to Submit:**
 1. Find relevant awesome list on GitHub
@@ -159,7 +157,7 @@ Built with ❤️ by [Matt Strautmann](https://mattstrautmann.com)
 
 ### Show HN (Hacker News)
 - [ ] Share interesting projects
-- [ ] "Show HN: SBDK - Local data pipeline toolkit for rapid development"
+- [ ] "Show HN: SBDK - Developer toolkit for faster builds"
 - [ ] Portfolio link in profile + comments
 
 ---
