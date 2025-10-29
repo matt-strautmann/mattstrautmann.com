@@ -271,53 +271,6 @@ What's one thing you wish AI assistants knew about your work?
 
 ---
 
-## 💼 Consulting Pipeline (Board View)
-
-**Create a Notion board: Inquiry | Qualified | Proposal | Active | Closed**
-
-### Template Card Structure
-
-**Card Title:** [Company Name] - [Type of Work]
-
-**Fields:**
-- Company: [Name]
-- Contact: [Name]
-- Email: [Email]
-- LinkedIn: [URL]
-- Type: [Platform Build / Strategy / Team Building]
-- Budget Range: [Range]
-- Timeline: [When they need it]
-- Status: [Select from board columns]
-- Next Action: [What needs to happen]
-- Notes: [Details from conversation]
-
-**Inquiry Template Response:**
-```
-Hi [Name],
-
-Thanks for reaching out about [project].
-
-Background: I'm Head of Data at PostPilot, previously at Airbnb and Braze where I delivered:
-• 80% efficiency gains through AI-powered platforms
-• $100K+ revenue impact through data optimization
-• Multi-million dollar growth via ML forecasting
-
-I occasionally consult for the right opportunities, typically focused on:
-→ AI/ML platform architecture
-→ Data strategy for scaling companies
-→ Building high-performing data teams
-
-Happy to schedule a call to discuss your needs.
-
-My work: mattstrautmann.com
-Calendar: [link]
-
-Best,
-Matt
-```
-
----
-
 ## 🎨 Brand Guidelines (Page View)
 
 ### Core Messaging
@@ -458,14 +411,7 @@ Matt
 
 ---
 
-### Template 2: Consulting Response
-**Use Case:** Responding to consulting inquiry
-**Subject:** Re: Consulting Opportunity
-**Body:** [See MARKETING_STRATEGY.md Template 2]
-
----
-
-### Template 3: Speaking/Podcast
+### Template 2: Speaking/Podcast
 **Use Case:** Speaking/podcast invitation
 **Subject:** Re: Speaking Opportunity
 **Body:** [See MARKETING_STRATEGY.md Template 3]
@@ -529,7 +475,7 @@ Matt
 - [ ] 2,000+ portfolio visitors
 - [ ] 15,000+ LinkedIn impressions
 - [ ] 50+ new connections
-- [ ] 3+ consulting inquiries
+- [ ] 5+ meaningful collaborations
 
 ### Quarter 1 Targets
 - [ ] 250+ GitHub stars

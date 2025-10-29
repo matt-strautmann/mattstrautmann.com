@@ -31,8 +31,8 @@ Head of Data at PostPilot. Former Airbnb & Braze. I've delivered 80% efficiency 
 
 **Tertiary:** Recruiters & Opportunities
 - Executive recruiting
-- Consulting opportunities
 - Speaking engagements
+- Collaboration opportunities
 
 ---
 
@@ -47,7 +47,7 @@ Head of Data at PostPilot. Former Airbnb & Braze. I've delivered 80% efficiency 
 
 **20% Promoting:**
 - 15% - Portfolio/project updates
-- 5% - Consulting availability
+- 5% - Community engagement
 
 ### Post Frequency
 - **Optimal:** 3-4 posts per week
@@ -341,7 +341,7 @@ Here's what happened:
 • 2,847 impressions
 • 213 engagements
 • 19 new connections
-• 4 DMs about consulting
+• 8 meaningful DMs
 
 📊 Portfolio:
 • 412 unique visitors
@@ -464,39 +464,7 @@ Matt
 
 ---
 
-### Template 2: Consulting Inquiry Response
-
-**Subject:** Re: Consulting Opportunity
-
-```
-Hi [Name],
-
-Thanks for reaching out about [project/opportunity].
-
-Background: I'm Head of Data at PostPilot, previously at Airbnb and Braze where I delivered:
-• 80% efficiency gains through AI-powered platforms
-• $100K+ revenue impact through data optimization
-• Multi-million dollar growth via ML forecasting
-
-I occasionally consult for the right opportunities, typically focused on:
-→ AI/ML platform architecture
-→ Data strategy for scaling companies
-→ Building high-performing data teams
-
-Happy to schedule a call to discuss your needs.
-
-My work: mattstrautmann.com
-Availability: [calendar link or time options]
-
-Best,
-Matt
-```
-
-**Best for:** Responding to consulting inquiries
-
----
-
-### Template 3: Speaking/Podcast Invitation
+### Template 2: Speaking/Podcast Invitation
 
 **Subject:** Re: Speaking/Podcast Opportunity
 

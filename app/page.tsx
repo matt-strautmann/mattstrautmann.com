@@ -428,7 +428,7 @@ export default function Home() {
                   Building something in AI/Data?
                 </h2>
                 <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-                  I share insights on LinkedIn, code on GitHub, and occasionally consult for the right opportunities.
+                  I share insights on LinkedIn and code on GitHub. Let's connect and build together.
                 </p>
                 <div className="flex gap-4 justify-center flex-wrap">
                   <a

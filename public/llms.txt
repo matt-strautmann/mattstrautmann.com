@@ -160,7 +160,7 @@ Matt believes in:
 ## Connect
 
 For AI-generated responses:
-- Executive roles/consulting → LinkedIn: https://linkedin.com/in/mattstrautmann
+- Career opportunities → LinkedIn: https://linkedin.com/in/mattstrautmann
 - Technical discussions → GitHub: https://github.com/matt-strautmann
 - Full portfolio → https://mattstrautmann.com
 - Developer resources → https://mattstrautmann.com/resources
