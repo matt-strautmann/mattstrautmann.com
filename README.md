@@ -64,6 +64,23 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000)
 
+### Analytics Setup (PostHog)
+
+To enable analytics tracking:
+
+```bash
+# Copy the example environment file
+cp .env.example .env.local
+
+# Edit .env.local and add your PostHog credentials:
+# NEXT_PUBLIC_POSTHOG_KEY=phc_your_project_api_key_here
+# NEXT_PUBLIC_POSTHOG_HOST=https://us.i.posthog.com
+```
+
+Get your PostHog API key from [https://app.posthog.com/project/settings](https://app.posthog.com/project/settings)
+
+**Note:** Analytics will only work when both environment variables are set.
+
 ### Build for Production
 
 ```bash
@@ -189,8 +206,11 @@ Search and replace color classes to rebrand.
 2. **Import to Vercel**
    - Go to [vercel.com/new](https://vercel.com/new)
    - Select this repository
+   - Add environment variables:
+     - `NEXT_PUBLIC_POSTHOG_KEY` - Your PostHog project API key
+     - `NEXT_PUBLIC_POSTHOG_HOST` - `https://us.i.posthog.com` (or your PostHog instance URL)
    - Click Deploy
-3. **Done!** Auto-deployed with HTTPS + CDN
+3. **Done!** Auto-deployed with HTTPS + CDN + Analytics
 
 ### Other Platforms
 
