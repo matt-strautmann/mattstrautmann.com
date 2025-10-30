@@ -4,13 +4,19 @@ import { projects } from '@/data/projects';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://mattstrautmann.com';
 
-  // Homepage
+  // Homepage and main pages
   const routes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
+    },
+    {
+      url: `${baseUrl}/resources`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
   ];
 

@@ -16,6 +16,10 @@ export function PHProvider({ children }: { children: React.ReactNode }) {
         person_profiles: 'identified_only',
         capture_pageview: false, // Disable automatic pageview capture, as we capture manually
         capture_pageleave: true,
+        autocapture: true, // Enable automatic click, form, and interaction tracking
+        session_recording: {
+          recordCrossOriginIframes: false,
+        },
       })
     }
   }, [])
