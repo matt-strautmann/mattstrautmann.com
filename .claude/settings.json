@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "post-commit": ".claude/hooks/post-commit-aeo.sh"
+  }
+}
