@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEO Analysis Report - localhost</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #f9fafb;
+            padding: 20px;
+        }
+
+        .container { max-width: 1400px; margin: 0 auto; }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 48px;
+            border-radius: 16px;
+            margin-bottom: 32px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.025em;
+        }
+
+        .header p { opacity: 0.95; font-size: 1.125rem; }
+
+        .header .date {
+            font-size: 0.875rem;
+            opacity: 0.8;
+            margin-top: 12px;
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 28px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e5e7eb;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .stat-card p {
+            color: #6b7280;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .section {
+            background: white;
+            padding: 36px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e5e7eb;
+        }
+
+        .section h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: #111827;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .recommendations-section {
+            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+            border-left: 4px solid #f59e0b;
+        }
+
+        .recommendations-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .recommendations-list li {
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .recommendations-list li:before {
+            content: "💡";
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .page-card {
+            border: 1px solid #e5e7eb;
+            padding: 24px;
+            margin-bottom: 24px;
+            background: #fafafa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            transition: all 0.2s;
+        }
+
+        .page-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-left-color: #764ba2;
+        }
+
+        .page-card h3 {
+            color: #111827;
+            font-size: 1.375rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .page-card .url {
+            color: #667eea;
+            font-size: 0.875rem;
+            margin-bottom: 20px;
+            word-break: break-all;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+
+        .score-badges {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .score-badge {
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+        }
+
+        .score-label {
+            font-size: 0.75rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .score-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+        }
+
+        .tag {
+            background: #e0e7ff;
+            color: #4338ca;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+        }
+
+        .tag.schema {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .tag.warning {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .overview {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 36px;
+            border-radius: 12px;
+            margin-bottom: 32px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .overview h2 {
+            color: #111827;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .overview-summary {
+            font-size: 1.125rem;
+            line-height: 1.75;
+            margin-bottom: 24px;
+            color: #374151;
+        }
+
+        .list-section {
+            margin: 24px 0;
+        }
+
+        .list-section h3 {
+            color: #667eea;
+            margin-bottom: 16px;
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+
+        .list-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .list-section li {
+            padding: 10px 0;
+            padding-left: 28px;
+            position: relative;
+            color: #374151;
+        }
+
+        .list-section li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+            font-size: 1.125rem;
+        }
+
+        .content-preview {
+            margin: 16px 0;
+            padding: 16px;
+            background: white;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+
+        .content-preview-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #374151;
+        }
+
+        .content-preview-text {
+            color: #6b7280;
+            line-height: 1.7;
+            max-height: 200px;
+            overflow: auto;
+        }
+
+        .page-recommendations {
+            margin-top: 20px;
+            padding: 16px;
+            background: #fef3c7;
+            border-radius: 8px;
+            border-left: 3px solid #f59e0b;
+        }
+
+        .page-recommendations h4 {
+            color: #92400e;
+            margin-bottom: 12px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .page-recommendations ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .page-recommendations li {
+            padding: 8px 0;
+            color: #78350f;
+            font-size: 0.875rem;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .page-recommendations li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #f59e0b;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .stats-grid { grid-template-columns: 1fr; }
+            .score-badges { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 AEO Analysis Report</h1>
+            <p>http://localhost:3000</p>
+            <div class="date">Generated November 2, 2025 • AEO-Now v2.0</div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>10</h3>
+                <p>Total Pages Crawled</p>
+            </div>
+            <div class="stat-card">
+                <h3>5</h3>
+                <p>HTML Pages Analyzed</p>
+            </div>
+            <div class="stat-card">
+                <h3>5</h3>
+                <p>Pages with Schema.org</p>
+            </div>
+            <div class="stat-card">
+                <h3>94</h3>
+                <p>Avg Readability Score</p>
+            </div>
+        </div>
+
+        
+
+        <div class="overview">
+            <h2>📋 Site Overview</h2>
+            <div class="overview-summary">Analyzed 5 pages from http://localhost:3000</div>
+
+            
+
+            
+        </div>
+
+        <div class="section">
+            <h2>📄 Page Analysis</h2>
+            
+                <div class="page-card">
+                    <h3>Matt Strautmann - AI & Data Leader</h3>
+                    <div class="url">http://localhost:3000</div>
+
+                    
+                    <div class="score-badges">
+                        
+    <div class="score-badge">
+      <div class="score-label">Readability</div>
+      <div class="score-value" style="color: #10b981;">100/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Metadata</div>
+      <div class="score-value" style="color: #3b82f6;">80/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Headings</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Semantic HTML</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                    </div>
+                    
+
+                    <div class="tags">
+                        <span class="tag schema">✓ Schema.org</span>
+                        <span class="tag schema">Person</span><span class="tag schema">Organization</span>
+                        <span class="tag">📝 380 words</span>
+                    </div>
+
+                    <div style="margin: 16px 0; color: #374151;"><strong>Summary:</strong> Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.</div>
+
+                    
+                    <div class="content-preview">
+                        <div class="content-preview-title">Content Preview</div>
+                        <div class="content-preview-text">
+                            Matt StrautmannHead of Data @ PostPilot | Former Airbnb, BrazeResourcesLinkedInGitHubAI & Data Executive Building Open SourceFrom 6 days to 30 seconds. That's what AI-first data platforms deliver.I'm Matt Strautmann, Head of Data at PostPilot. I build ML/AI systems that turn data chaos into revenue for scaling companies. Previously at Airbnb and Braze, delivering 80% efficiency gains and $100K+ revenue impact. Now sharing everything I've learned through open source tools.80%Efficiency gain in reporting at Braze$100K+Revenue impact at Sketchy10+Years leading data teamsEnterprise ML/AI platformsData strategy for scaleBuilding open sourceThe ChallengeMost companies are drowning in data but starving for insights.The problem: Teams spend weeks generating reports that executives barely read. Dat...
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div style="margin-top: 16px;">
+                        <strong style="display: block; margin-bottom: 8px; color: #374151;">Topics:</strong>
+                        <div class="tags">
+                            <span class="tag">Data</span><span class="tag">Revenue</span><span class="tag">Open</span><span class="tag">Matt</span><span class="tag">Postpilot</span>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="page-recommendations">
+                        <h4>Recommendations</h4>
+                        <ul>
+                            <li>Add Open Graph image for social sharing</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                <div class="page-card">
+                    <h3>Developer Resources - Matt Strautmann</h3>
+                    <div class="url">http://localhost:3000/resources</div>
+
+                    
+                    <div class="score-badges">
+                        
+    <div class="score-badge">
+      <div class="score-label">Readability</div>
+      <div class="score-value" style="color: #3b82f6;">85/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Metadata</div>
+      <div class="score-value" style="color: #3b82f6;">80/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Headings</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Semantic HTML</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                    </div>
+                    
+
+                    <div class="tags">
+                        <span class="tag schema">✓ Schema.org</span>
+                        <span class="tag schema">CollectionPage</span><span class="tag schema">Person</span>
+                        <span class="tag">📝 303 words</span>
+                    </div>
+
+                    <div style="margin: 16px 0; color: #374151;"><strong>Summary:</strong> Curated resources, tools, and recommendations for software developers. My personal tech stack, favorite tools, and helpful resources for building better software.</div>
+
+                    
+                    <div class="content-preview">
+                        <div class="content-preview-title">Content Preview</div>
+                        <div class="content-preview-text">
+                            Back to PortfolioCurated ResourcesTools & Resources I Actually UseMy curated list of development tools, frameworks, and resources that help me build better software. Everything here is something I actually use and recommend.Note: These are my personal recommendations based on real experience. Your mileage may vary - pick what works for your projects and team.Development ToolsSBDKSoftware Builder Development Kit - comprehensive toolkit for streamlining developmentWhy I use it: My own project - built to solve the problems I encountered building software projects repeatedlyNext.jsReact framework for production-grade applicationsWhy I use it: Best developer experience for building modern web apps with great performance out of the boxTypeScriptJavaScript with syntax for typesWhy I use it: Catch...
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div style="margin-top: 16px;">
+                        <strong style="display: block; margin-bottom: 8px; color: #374151;">Topics:</strong>
+                        <div class="tags">
+                            <span class="tag">Your</span><span class="tag">Resources</span><span class="tag">Building</span><span class="tag">Development</span><span class="tag">Tools</span>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="page-recommendations">
+                        <h4>Recommendations</h4>
+                        <ul>
+                            <li>Add Open Graph image for social sharing</li><li>Simplify sentence structure for better readability</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                <div class="page-card">
+                    <h3>Matt Strautmann - AI & Data Leader</h3>
+                    <div class="url">http://localhost:3000/</div>
+
+                    
+                    <div class="score-badges">
+                        
+    <div class="score-badge">
+      <div class="score-label">Readability</div>
+      <div class="score-value" style="color: #10b981;">100/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Metadata</div>
+      <div class="score-value" style="color: #3b82f6;">80/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Headings</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Semantic HTML</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                    </div>
+                    
+
+                    <div class="tags">
+                        <span class="tag schema">✓ Schema.org</span>
+                        <span class="tag schema">Person</span><span class="tag schema">Organization</span>
+                        <span class="tag">📝 380 words</span>
+                    </div>
+
+                    <div style="margin: 16px 0; color: #374151;"><strong>Summary:</strong> Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.</div>
+
+                    
+                    <div class="content-preview">
+                        <div class="content-preview-title">Content Preview</div>
+                        <div class="content-preview-text">
+                            Matt StrautmannHead of Data @ PostPilot | Former Airbnb, BrazeResourcesLinkedInGitHubAI & Data Executive Building Open SourceFrom 6 days to 30 seconds. That's what AI-first data platforms deliver.I'm Matt Strautmann, Head of Data at PostPilot. I build ML/AI systems that turn data chaos into revenue for scaling companies. Previously at Airbnb and Braze, delivering 80% efficiency gains and $100K+ revenue impact. Now sharing everything I've learned through open source tools.80%Efficiency gain in reporting at Braze$100K+Revenue impact at Sketchy10+Years leading data teamsEnterprise ML/AI platformsData strategy for scaleBuilding open sourceThe ChallengeMost companies are drowning in data but starving for insights.The problem: Teams spend weeks generating reports that executives barely read. Dat...
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div style="margin-top: 16px;">
+                        <strong style="display: block; margin-bottom: 8px; color: #374151;">Topics:</strong>
+                        <div class="tags">
+                            <span class="tag">Data</span><span class="tag">Revenue</span><span class="tag">Open</span><span class="tag">Matt</span><span class="tag">Postpilot</span>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="page-recommendations">
+                        <h4>Recommendations</h4>
+                        <ul>
+                            <li>Add Open Graph image for social sharing</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                <div class="page-card">
+                    <h3>SBDK - Software Builder Development Kit - Matt Strautmann</h3>
+                    <div class="url">http://localhost:3000/projects/sbdk</div>
+
+                    
+                    <div class="score-badges">
+                        
+    <div class="score-badge">
+      <div class="score-label">Readability</div>
+      <div class="score-value" style="color: #3b82f6;">85/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Metadata</div>
+      <div class="score-value" style="color: #3b82f6;">80/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Headings</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Semantic HTML</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                    </div>
+                    
+
+                    <div class="tags">
+                        <span class="tag schema">✓ Schema.org</span>
+                        <span class="tag schema">SoftwareSourceCode</span><span class="tag schema">Person</span>
+                        <span class="tag">📝 169 words</span>
+                    </div>
+
+                    <div style="margin: 16px 0; color: #374151;"><strong>Summary:</strong> Back to PortfolioFeatured ProjectSBDK - Software Builder Development KitA comprehensive development kit for building software projects faster and more efficientlyView Source CodeVisit Website →About This ProjectSBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help dev</div>
+
+                    
+                    <div class="content-preview">
+                        <div class="content-preview-title">Content Preview</div>
+                        <div class="content-preview-text">
+                            Back to PortfolioFeatured ProjectSBDK - Software Builder Development KitA comprehensive development kit for building software projects faster and more efficientlyView Source CodeVisit Website →About This ProjectSBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help developers build better software faster.
+
+The kit includes pre-configured setups for common development tasks, best-practice implementations, and tools that reduce boilerplate code. SBDK is built with TypeScript for excellent developer experience and type safety.
+
+Key features include:
+- Modular architecture for easy customization
+- TypeScript-first with full type definitions
+- Comprehensive document...
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div style="margin-top: 16px;">
+                        <strong style="display: block; margin-bottom: 8px; color: #374151;">Topics:</strong>
+                        <div class="tags">
+                            <span class="tag">Development</span><span class="tag">Software</span><span class="tag">Builder</span><span class="tag">Code</span><span class="tag">Projectsbdk</span>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="page-recommendations">
+                        <h4>Recommendations</h4>
+                        <ul>
+                            <li>Add Open Graph image for social sharing</li><li>Simplify sentence structure for better readability</li><li>Add more content (aim for 300+ words per page)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                <div class="page-card">
+                    <h3>AEO-Optimized Portfolio - Matt Strautmann</h3>
+                    <div class="url">http://localhost:3000/projects/portfolio-website</div>
+
+                    
+                    <div class="score-badges">
+                        
+    <div class="score-badge">
+      <div class="score-label">Readability</div>
+      <div class="score-value" style="color: #10b981;">100/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Metadata</div>
+      <div class="score-value" style="color: #3b82f6;">80/100</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Headings</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                        
+    <div class="score-badge">
+      <div class="score-label">Semantic HTML</div>
+      <div class="score-value" style="color: #3b82f6;">good</div>
+    </div>
+  
+                    </div>
+                    
+
+                    <div class="tags">
+                        <span class="tag schema">✓ Schema.org</span>
+                        <span class="tag schema">SoftwareSourceCode</span><span class="tag schema">Person</span>
+                        <span class="tag">📝 200 words</span>
+                    </div>
+
+                    <div style="margin: 16px 0; color: #374151;"><strong>Summary:</strong> Back to PortfolioFeatured ProjectAEO-Optimized PortfolioA modern, maintainable portfolio website built for AI search engine discoverabilityView Source CodeAbout This ProjectThis portfolio website is built with Answer Engine Optimization (AEO) as a core principle. It uses Schema.org structured data to help AI search engines like ChatGPT, Perplexity, and Google's AI understand my projects. The site </div>
+
+                    
+                    <div class="content-preview">
+                        <div class="content-preview-title">Content Preview</div>
+                        <div class="content-preview-text">
+                            Back to PortfolioFeatured ProjectAEO-Optimized PortfolioA modern, maintainable portfolio website built for AI search engine discoverabilityView Source CodeAbout This ProjectThis portfolio website is built with Answer Engine Optimization (AEO) as a core principle. It uses Schema.org structured data to help AI search engines like ChatGPT, Perplexity, and Google's AI understand my projects.
+
+The site features automatic sitemap generation, semantic HTML structure, and comprehensive metadata for each project. All projects are managed through a single data file, making it incredibly easy to maintain and update.
+
+Built with Next.js 16 for optimal performance, the site uses static generation to ensure fast load times and excellent SEO. The clean, modern design uses gradients and smooth animations ...
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div style="margin-top: 16px;">
+                        <strong style="display: block; margin-bottom: 8px; color: #374151;">Topics:</strong>
+                        <div class="tags">
+                            <span class="tag">Generation</span><span class="tag">Portfolio</span><span class="tag">Built</span><span class="tag">Uses</span><span class="tag">Data</span>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="page-recommendations">
+                        <h4>Recommendations</h4>
+                        <ul>
+                            <li>Add Open Graph image for social sharing</li><li>Add more content (aim for 300+ words per page)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+        </div>
+
+        <div class="footer">
+            Generated by <strong>AEO-Now v2.0</strong> •
+            <a href="https://github.com/matt-strautmann/aeo-now">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>

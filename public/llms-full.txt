@@ -1,0 +1,127 @@
+# localhost - Complete Documentation
+
+> Analyzed 5 pages from http://localhost:3000
+
+Last updated: November 2, 2025
+Total pages: 5
+
+## Site Overview
+
+Analyzed 5 pages from http://localhost:3000
+
+---
+
+## All Pages
+
+### Matt Strautmann - AI & Data Leader
+
+**URL:** http://localhost:3000
+
+**Summary:** Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.
+
+
+**Content:**
+Matt StrautmannHead of Data @ PostPilot | Former Airbnb, BrazeResourcesLinkedInGitHubAI & Data Executive Building Open SourceFrom 6 days to 30 seconds. That's what AI-first data platforms deliver.I'm Matt Strautmann, Head of Data at PostPilot. I build ML/AI systems that turn data chaos into revenue for scaling companies. Previously at Airbnb and Braze, delivering 80% efficiency gains and $100K+ revenue impact. Now sharing everything I've learned through open source tools.80%Efficiency gain in reporting at Braze$100K+Revenue impact at Sketchy10+Years leading data teamsEnterprise ML/AI platformsData strategy for scaleBuilding open sourceThe ChallengeMost companies are drowning in data but starving for insights.The problem: Teams spend weeks generating reports that executives barely read. Data sits in silos. ML models never make it to production. Revenue opportunities slip through the cracks.The cost: Lost time, missed revenue, and teams burning out on manual work that should be automated.→ I've solved this at Airbnb, Braze, and now PostPilot. Here's how.How I've Delivered ResultsReal impact from AI/ML platforms and data strategy at top tech companies.Head of DataPostPilotDec 2024 - PresentLeading data strategy, AI product development, and machine learning platforms for a scaling marketing tech company.Senior Manager, Data & AI EngineeringBrazeAug 2022 - Oct 2024 • 2 yrs 3 mos80% efficiency gain: Reduced Executive Business Review generation from 6 days to real-timeProduct owner for internal AI tooling and campaign performance reportingPartnered with senior leadership to align AI investments with revenue enablementDirector of Data Science, HotelTonightAirbnbNov 2018 - Apr 2020 • 1 yr 6 mosLed data division; team of 10+ reporting to Head of DataMulti-million dollar revenue growth via improved forecasting and yield models15% reduction in revenue leakage through metro-level sales forecastingAdditional leadership roles at Good Money, Sketchy, and ConversantView full experie
+
+
+**Topics:** Data, Revenue, Open, Matt, Postpilot
+
+
+
+---
+
+### Developer Resources - Matt Strautmann
+
+**URL:** http://localhost:3000/resources
+
+**Summary:** Curated resources, tools, and recommendations for software developers. My personal tech stack, favorite tools, and helpful resources for building better software.
+
+
+**Content:**
+Back to PortfolioCurated ResourcesTools & Resources I Actually UseMy curated list of development tools, frameworks, and resources that help me build better software. Everything here is something I actually use and recommend.Note: These are my personal recommendations based on real experience. Your mileage may vary - pick what works for your projects and team.Development ToolsSBDKSoftware Builder Development Kit - comprehensive toolkit for streamlining developmentWhy I use it: My own project - built to solve the problems I encountered building software projects repeatedlyNext.jsReact framework for production-grade applicationsWhy I use it: Best developer experience for building modern web apps with great performance out of the boxTypeScriptJavaScript with syntax for typesWhy I use it: Catch errors before runtime and get better IDE support - worth the initial learning curveTailwind CSSUtility-first CSS frameworkWhy I use it: Rapid UI development without leaving your HTML - consistent design systems made easySEO & AIllms.txt StandardProtocol for making websites discoverable to AI search enginesWhy I use it: Essential for being found by ChatGPT, Claude, and Perplexity - the future of searchSchema.orgStructured data vocabulary for the webWhy I use it: Helps search engines and AI understand your content - critical for AEOPersonal BrandJustin Welsh's Content StrategyLearn how to build a personal brand and grow your audienceWhy I use it: Clear, proven strategies for getting attention and building an audience as a creatorOpen SourceGitHubWhere the world builds softwareWhy I use it: Essential for collaboration, portfolio building, and contributing to the developer communityMy Current StackFrontend• Next.js + React• TypeScript• Tailwind CSSBackend & Tools• Node.js• Git & GitHub• Vercel (deployment)Planning & Design• Notion (docs & planning)• Figma (when needed)• Linear (project management)SEO & Discovery• Schema.org markup• llms.txt standard• Semantic HTMLHave a resource to re
+
+
+**Topics:** Your, Resources, Building, Development, Tools
+
+
+
+---
+
+### Matt Strautmann - AI & Data Leader
+
+**URL:** http://localhost:3000/
+
+**Summary:** Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.
+
+
+**Content:**
+Matt StrautmannHead of Data @ PostPilot | Former Airbnb, BrazeResourcesLinkedInGitHubAI & Data Executive Building Open SourceFrom 6 days to 30 seconds. That's what AI-first data platforms deliver.I'm Matt Strautmann, Head of Data at PostPilot. I build ML/AI systems that turn data chaos into revenue for scaling companies. Previously at Airbnb and Braze, delivering 80% efficiency gains and $100K+ revenue impact. Now sharing everything I've learned through open source tools.80%Efficiency gain in reporting at Braze$100K+Revenue impact at Sketchy10+Years leading data teamsEnterprise ML/AI platformsData strategy for scaleBuilding open sourceThe ChallengeMost companies are drowning in data but starving for insights.The problem: Teams spend weeks generating reports that executives barely read. Data sits in silos. ML models never make it to production. Revenue opportunities slip through the cracks.The cost: Lost time, missed revenue, and teams burning out on manual work that should be automated.→ I've solved this at Airbnb, Braze, and now PostPilot. Here's how.How I've Delivered ResultsReal impact from AI/ML platforms and data strategy at top tech companies.Head of DataPostPilotDec 2024 - PresentLeading data strategy, AI product development, and machine learning platforms for a scaling marketing tech company.Senior Manager, Data & AI EngineeringBrazeAug 2022 - Oct 2024 • 2 yrs 3 mos80% efficiency gain: Reduced Executive Business Review generation from 6 days to real-timeProduct owner for internal AI tooling and campaign performance reportingPartnered with senior leadership to align AI investments with revenue enablementDirector of Data Science, HotelTonightAirbnbNov 2018 - Apr 2020 • 1 yr 6 mosLed data division; team of 10+ reporting to Head of DataMulti-million dollar revenue growth via improved forecasting and yield models15% reduction in revenue leakage through metro-level sales forecastingAdditional leadership roles at Good Money, Sketchy, and ConversantView full experie
+
+
+**Topics:** Data, Revenue, Open, Matt, Postpilot
+
+
+
+---
+
+### SBDK - Software Builder Development Kit - Matt Strautmann
+
+**URL:** http://localhost:3000/projects/sbdk
+
+**Summary:** Back to PortfolioFeatured ProjectSBDK - Software Builder Development KitA comprehensive development kit for building software projects faster and more efficientlyView Source CodeVisit Website →About This ProjectSBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help dev
+
+
+**Content:**
+Back to PortfolioFeatured ProjectSBDK - Software Builder Development KitA comprehensive development kit for building software projects faster and more efficientlyView Source CodeVisit Website →About This ProjectSBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help developers build better software faster.
+
+The kit includes pre-configured setups for common development tasks, best-practice implementations, and tools that reduce boilerplate code. SBDK is built with TypeScript for excellent developer experience and type safety.
+
+Key features include:
+- Modular architecture for easy customization
+- TypeScript-first with full type definitions
+- Comprehensive documentation and examples
+- Active development and community support
+- Integration with popular frameworks and tools
+
+Whether you're starting a new project or enhancing an existing one, SBDK provides the building blocks you need to accelerate development while maintaining code quality.Tech StackTypeScriptNode.jsCategories#developer-tools#typescript#open-source#sdkProject InfoPublished2025-10StatusActiveInterested in this project?Check out the code, try the demo, or explore more of my workView All ProjectsSBDK - Software Builder Development Kit - Matt Strautmann
+
+
+**Topics:** Development, Software, Builder, Code, Projectsbdk
+
+
+
+---
+
+### AEO-Optimized Portfolio - Matt Strautmann
+
+**URL:** http://localhost:3000/projects/portfolio-website
+
+**Summary:** Back to PortfolioFeatured ProjectAEO-Optimized PortfolioA modern, maintainable portfolio website built for AI search engine discoverabilityView Source CodeAbout This ProjectThis portfolio website is built with Answer Engine Optimization (AEO) as a core principle. It uses Schema.org structured data to help AI search engines like ChatGPT, Perplexity, and Google's AI understand my projects. The site 
+
+
+**Content:**
+Back to PortfolioFeatured ProjectAEO-Optimized PortfolioA modern, maintainable portfolio website built for AI search engine discoverabilityView Source CodeAbout This ProjectThis portfolio website is built with Answer Engine Optimization (AEO) as a core principle. It uses Schema.org structured data to help AI search engines like ChatGPT, Perplexity, and Google's AI understand my projects.
+
+The site features automatic sitemap generation, semantic HTML structure, and comprehensive metadata for each project. All projects are managed through a single data file, making it incredibly easy to maintain and update.
+
+Built with Next.js 16 for optimal performance, the site uses static generation to ensure fast load times and excellent SEO. The clean, modern design uses gradients and smooth animations to create an engaging experience while maintaining professionalism.
+
+Special features:
+- llms.txt file for AI crawler optimization
+- Complete Schema.org markup on every page
+- Automatic sitemap and robots.txt generation
+- Mobile-first responsive design
+- Lightning-fast static generation
+- Easy content management through a single data fileRelated ProjectsSBDK - Software Builder Development KitA comprehensive development kit for building software projects faster and more efficientlyTech StackNext.jsTypeScriptTailwind CSSReactCategories#web#portfolio#open-source#seo#aeoProject InfoPublished2025-10StatusActiveInterested in this project?Check out the code, try the demo, or explore more of my workView All ProjectsAEO-Optimized Portfolio - Matt Strautmann
+
+
+**Topics:** Generation, Portfolio, Built, Uses, Data
+
+
+
+---
+
+
+*This is the complete version of llms.txt with all pages included.*
+*For a concise version, see llms.txt*
+*Generated by AEO-Now v2.0 on November 2, 2025*
