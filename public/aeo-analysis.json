@@ -1,13 +1,13 @@
 {
   "crawl": {
-    "baseUrl": "http://localhost:3000",
+    "baseUrl": "https://mattstrautmann.comhttps://mattstrautmann.com",
     "totalPages": 10,
     "htmlPages": 5,
-    "crawledAt": "2025-11-03T05:39:47.779Z"
+    "crawledAt": "2025-11-03T06:14:05.844Z"
   },
   "pages": [
     {
-      "url": "http://localhost:3000",
+      "url": "https://mattstrautmann.comhttps://mattstrautmann.com",
       "path": "/",
       "title": "Matt Strautmann - AI & Data Leader",
       "httpStatus": 200,
@@ -52,7 +52,7 @@
       }
     },
     {
-      "url": "http://localhost:3000/resources",
+      "url": "https://mattstrautmann.comhttps://mattstrautmann.com/resources",
       "path": "/resources",
       "title": "Developer Resources - Matt Strautmann",
       "httpStatus": 200,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "url": "http://localhost:3000/",
+      "url": "https://mattstrautmann.comhttps://mattstrautmann.com/",
       "path": "/",
       "title": "Matt Strautmann - AI & Data Leader",
       "httpStatus": 200,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "url": "http://localhost:3000/projects/sbdk",
+      "url": "https://mattstrautmann.comhttps://mattstrautmann.com/projects/sbdk",
       "path": "/projects/sbdk",
       "title": "SBDK - Software Builder Development Kit - Matt Strautmann",
       "httpStatus": 200,
@@ -190,7 +190,7 @@
       }
     },
     {
-      "url": "http://localhost:3000/projects/portfolio-website",
+      "url": "https://mattstrautmann.comhttps://mattstrautmann.com/projects/portfolio-website",
       "path": "/projects/portfolio-website",
       "title": "AEO-Optimized Portfolio - Matt Strautmann",
       "httpStatus": 200,
@@ -237,7 +237,7 @@
     }
   ],
   "siteOverview": {
-    "summary": "Analyzed 5 pages from http://localhost:3000",
+    "summary": "Analyzed 5 pages from https://mattstrautmann.comhttps://mattstrautmann.com",
     "stats": {
       "pagesWithSchema": 5,
       "avgReadability": 94,
@@ -248,7 +248,7 @@
   },
   "metadata": {
     "generator": "AEO-Now v2.0",
-    "analysisDate": "2025-11-03T05:39:47.779Z",
+    "analysisDate": "2025-11-03T06:14:05.844Z",
     "analysisType": "Full Site Crawl with Content Extraction and Analysis"
   }
 }

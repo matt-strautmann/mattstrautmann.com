@@ -1,18 +1,18 @@
 # localhost
 
-> Analyzed 5 pages from http://localhost:3000
+> Analyzed 5 pages from https://mattstrautmann.comhttps://mattstrautmann.com
 
 Last updated: November 2, 2025
 
 ## Overview
 
-Analyzed 5 pages from http://localhost:3000
+Analyzed 5 pages from https://mattstrautmann.comhttps://mattstrautmann.com
 
 ## Pages
 
 ### Matt Strautmann - AI & Data Leader
 
-http://localhost:3000
+https://mattstrautmann.comhttps://mattstrautmann.com
 
 Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.
 
@@ -20,7 +20,7 @@ Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn m
 
 ### Developer Resources - Matt Strautmann
 
-http://localhost:3000/resources
+https://mattstrautmann.comhttps://mattstrautmann.com/resources
 
 Curated resources, tools, and recommendations for software developers. My personal tech stack, favorite tools, and helpful resources for building better software.
 
@@ -28,7 +28,7 @@ Curated resources, tools, and recommendations for software developers. My person
 
 ### Matt Strautmann - AI & Data Leader
 
-http://localhost:3000/
+https://mattstrautmann.comhttps://mattstrautmann.com/
 
 Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn messy data into profit through AI/ML platforms and data strategy.
 
@@ -36,7 +36,7 @@ Head of Data at PostPilot. Former Airbnb, Braze. I help scaling companies turn m
 
 ### SBDK - Software Builder Development Kit - Matt Strautmann
 
-http://localhost:3000/projects/sbdk
+https://mattstrautmann.comhttps://mattstrautmann.com/projects/sbdk
 
 Back to PortfolioFeatured ProjectSBDK - Software Builder Development KitA comprehensive development kit for building software projects faster and more efficientlyView Source CodeVisit Website →About This ProjectSBDK (Software Builder Development Kit) is a powerful toolkit designed to streamline the software development process. It provides reusable components, utilities, and patterns that help dev
 
@@ -44,7 +44,7 @@ Back to PortfolioFeatured ProjectSBDK - Software Builder Development KitA compre
 
 ### AEO-Optimized Portfolio - Matt Strautmann
 
-http://localhost:3000/projects/portfolio-website
+https://mattstrautmann.comhttps://mattstrautmann.com/projects/portfolio-website
 
 Back to PortfolioFeatured ProjectAEO-Optimized PortfolioA modern, maintainable portfolio website built for AI search engine discoverabilityView Source CodeAbout This ProjectThis portfolio website is built with Answer Engine Optimization (AEO) as a core principle. It uses Schema.org structured data to help AI search engines like ChatGPT, Perplexity, and Google's AI understand my projects. The site 
 
