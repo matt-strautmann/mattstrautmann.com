@@ -3,7 +3,7 @@
     "baseUrl": "http://localhost:3000",
     "totalPages": 10,
     "htmlPages": 5,
-    "crawledAt": "2025-11-03T02:58:56.441Z"
+    "crawledAt": "2025-11-03T05:39:47.779Z"
   },
   "pages": [
     {
@@ -248,7 +248,7 @@
   },
   "metadata": {
     "generator": "AEO-Now v2.0",
-    "analysisDate": "2025-11-03T02:58:56.441Z",
+    "analysisDate": "2025-11-03T05:39:47.779Z",
     "analysisType": "Full Site Crawl with Content Extraction and Analysis"
   }
 }
