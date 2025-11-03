@@ -3,7 +3,7 @@
     "baseUrl": "https://mattstrautmann.comhttps://mattstrautmann.com",
     "totalPages": 10,
     "htmlPages": 5,
-    "crawledAt": "2025-11-03T06:18:44.239Z"
+    "crawledAt": "2025-11-03T06:18:55.572Z"
   },
   "pages": [
     {
@@ -248,7 +248,7 @@
   },
   "metadata": {
     "generator": "AEO-Now v2.0",
-    "analysisDate": "2025-11-03T06:18:44.239Z",
+    "analysisDate": "2025-11-03T06:18:55.572Z",
     "analysisType": "Full Site Crawl with Content Extraction and Analysis"
   }
 }
