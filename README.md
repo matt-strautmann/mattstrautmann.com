@@ -1,3 +1,4 @@
+<!-- Portfolio website README - Built with Next.js, TypeScript, and Tailwind CSS -->
 # Matt Strautmann - Portfolio Website
 
 > **Live Site**: [mattstrautmann.com](https://mattstrautmann.com)
