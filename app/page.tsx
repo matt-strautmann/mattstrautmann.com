@@ -7,7 +7,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Matt Strautmann",
-    jobTitle: "Head of Data",
+    jobTitle: "Open Source Developer & Data Leader",
     worksFor: {
       "@type": "Organization",
       name: "PostPilot"
@@ -16,6 +16,7 @@ export default function Home() {
     sameAs: [
       "https://github.com/matt-strautmann",
       "https://linkedin.com/in/mattstrautmann",
+      "https://sbdk.dev"
     ],
     alumniOf: [
       { "@type": "Organization", "name": "Airbnb" },
@@ -23,8 +24,8 @@ export default function Home() {
       { "@type": "Organization", "name": "Good Money" },
       { "@type": "Organization", "name": "Conversant" }
     ],
-    knowsAbout: ["Artificial Intelligence", "Machine Learning", "Data Strategy", "Enterprise Data Platforms", "Developer Tools", "Open Source"],
-    description: "AI & Data executive. Head of Data at PostPilot. Former Airbnb, Braze. Built ML platforms that delivered 80% efficiency gains and $100K+ revenue impact. Now building SBDK - open source developer tools for the next generation.",
+    knowsAbout: ["Open Source", "Developer Tools", "Artificial Intelligence", "Machine Learning", "Data Platforms", "Software Development Kits"],
+    description: "Building open source developer tools. Packaging 10+ years of enterprise data/ML experience from Airbnb, Braze, and PostPilot into tools like SBDK. All code public. All learnings shared. Stop reinventing the wheel.",
   };
 
   const featuredProjects = projects.filter(p => p.featured);
@@ -39,7 +40,7 @@ export default function Home() {
       />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
-        {/* Header with gradient accent */}
+        {/* Header - Simplified */}
         <header className="border-b border-slate-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
           <div className="max-w-6xl mx-auto px-6 py-6">
             <div className="flex items-center justify-between">
@@ -47,7 +48,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-slate-900 via-blue-800 to-slate-900 bg-clip-text text-transparent">
                   Matt Strautmann
                 </h1>
-                <p className="text-slate-600 mt-1 font-medium">Head of Data @ PostPilot | Former Airbnb, Braze</p>
+                <p className="text-slate-600 mt-1 font-medium">Building tools for developers</p>
               </div>
               <div className="flex items-center gap-3">
                 <Link
@@ -56,17 +57,6 @@ export default function Home() {
                 >
                   Resources
                 </Link>
-                <a
-                  href="https://linkedin.com/in/mattstrautmann"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all hover:scale-105"
-                >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                  </svg>
-                  <span className="hidden sm:inline">LinkedIn</span>
-                </a>
                 <a
                   href="https://github.com/matt-strautmann"
                   target="_blank"
@@ -78,219 +68,85 @@ export default function Home() {
                   </svg>
                   <span className="hidden sm:inline">GitHub</span>
                 </a>
+                <a
+                  href="https://linkedin.com/in/mattstrautmann"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full border-2 border-slate-300 text-slate-600 hover:border-blue-600 hover:text-blue-600 transition-all"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  <span className="hidden sm:inline">LinkedIn</span>
+                </a>
               </div>
             </div>
           </div>
         </header>
 
-        {/* Hero Section */}
+        {/* Hero Section - Mission First */}
         <main className="max-w-6xl mx-auto px-6 py-16">
-          <section className="mb-20">
+          <section className="mb-24">
             <div className="max-w-4xl">
-              {/* Clear Value Proposition */}
               <div className="mb-6">
                 <span className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  AI & Data Executive Building Open Source
+                  Open Source Developer Tools
                 </span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-                From 6 days to 30 seconds.{" "}
+                Stop reinventing the wheel.{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  That's what AI-first data platforms deliver.
+                  Start building what matters.
                 </span>
               </h2>
 
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                I'm Matt Strautmann, Head of Data at <span className="font-semibold">PostPilot</span>.
-                I build ML/AI systems that turn data chaos into revenue for scaling companies.
-                Previously at <span className="font-semibold">Airbnb</span> and <span className="font-semibold">Braze</span>,
-                delivering 80% efficiency gains and $100K+ revenue impact. Now sharing everything I've learned through{" "}
-                <a href="https://sbdk.dev" className="text-blue-600 hover:underline font-semibold" target="_blank" rel="noopener noreferrer">
-                  open source tools
-                </a>
-                .
+                I've spent 10+ years building data and ML platforms at Airbnb, Braze, and now PostPilot.
+                Every company faces the same problems. Every team rebuilds the same solutions.
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">80%</div>
-                  <div className="text-sm text-slate-600">Efficiency gain in reporting at Braze</div>
-                </div>
-                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$100K+</div>
-                  <div className="text-sm text-slate-600">Revenue impact at Sketchy</div>
-                </div>
-                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
-                  <div className="text-sm text-slate-600">Years leading data teams</div>
-                </div>
-              </div>
+              <p className="text-xl text-slate-900 font-semibold leading-relaxed mb-8">
+                So I'm packaging those solutions as open source. All code public. All learnings shared.
+                No more wasted cycles on solved problems.
+              </p>
 
-              <div className="flex flex-wrap gap-6 text-sm text-slate-600">
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+              <div className="flex flex-wrap gap-4 mb-12">
+                <a
+                  href="https://sbdk.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 transition-all"
+                >
+                  Explore SBDK
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                  <span><strong>Enterprise ML/AI</strong> platforms</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </a>
+                <a
+                  href="https://github.com/matt-strautmann"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-lg font-semibold border-2 border-slate-300 hover:border-slate-900 transition-all"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
                   </svg>
-                  <span><strong>Data strategy</strong> for scale</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                  </svg>
-                  <span><strong>Building</strong> open source</span>
-                </div>
+                  View on GitHub
+                </a>
               </div>
             </div>
           </section>
 
-          {/* The Challenge Section - Fletch PMM Problem Framework */}
-          <section className="mb-20">
-            <div className="max-w-4xl mx-auto bg-gradient-to-br from-slate-50 to-blue-50 rounded-3xl p-12 border-2 border-slate-200">
-              <div className="mb-6">
-                <span className="inline-block bg-slate-900 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                  The Challenge
-                </span>
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Most companies are drowning in data but starving for insights.
-              </h2>
-              <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
-                <p>
-                  <strong>The problem:</strong> Teams spend weeks generating reports that executives barely read.
-                  Data sits in silos. ML models never make it to production. Revenue opportunities slip through the cracks.
-                </p>
-                <p>
-                  <strong>The cost:</strong> Lost time, missed revenue, and teams burning out on manual work that should be automated.
-                </p>
-                <p className="text-xl font-semibold text-blue-600">
-                  → I've solved this at Airbnb, Braze, and now PostPilot. Here's how.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* The Solution: Executive Experience Section */}
-          <section className="mb-20">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
-              <h2 className="text-3xl font-bold text-slate-900">How I've Delivered Results</h2>
-            </div>
-            <p className="text-lg text-slate-600 mb-8 max-w-3xl">
-              Real impact from AI/ML platforms and data strategy at top tech companies.
-            </p>
-
-            <div className="space-y-6">
-              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Head of Data</h3>
-                    <p className="text-lg text-blue-600 font-semibold">PostPilot</p>
-                    <p className="text-sm text-slate-500">Dec 2024 - Present</p>
-                  </div>
-                </div>
-                <p className="text-slate-700 leading-relaxed">
-                  Leading data strategy, AI product development, and machine learning platforms for a scaling marketing tech company.
-                </p>
-              </div>
-
-              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Senior Manager, Data & AI Engineering</h3>
-                    <p className="text-lg text-blue-600 font-semibold">Braze</p>
-                    <p className="text-sm text-slate-500">Aug 2022 - Oct 2024 • 2 yrs 3 mos</p>
-                  </div>
-                </div>
-                <ul className="space-y-3 text-slate-700">
-                  <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span><strong>80% efficiency gain:</strong> Reduced Executive Business Review generation from 6 days to real-time</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>Product owner for internal AI tooling and campaign performance reporting</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>Partnered with senior leadership to align AI investments with revenue enablement</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 hover:border-blue-500 transition-all">
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Director of Data Science, HotelTonight</h3>
-                    <p className="text-lg text-blue-600 font-semibold">Airbnb</p>
-                    <p className="text-sm text-slate-500">Nov 2018 - Apr 2020 • 1 yr 6 mos</p>
-                  </div>
-                </div>
-                <ul className="space-y-3 text-slate-700">
-                  <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>Led data division; team of 10+ reporting to Head of Data</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span><strong>Multi-million dollar revenue growth</strong> via improved forecasting and yield models</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>15% reduction in revenue leakage through metro-level sales forecasting</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200">
-                <div className="text-center">
-                  <p className="text-slate-600 mb-4">
-                    Additional leadership roles at Good Money, Sketchy, and Conversant
-                  </p>
-                  <a
-                    href="https://linkedin.com/in/mattstrautmann"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-blue-600 hover:underline font-semibold"
-                  >
-                    View full experience on LinkedIn
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Value Props: Open Source Projects */}
+          {/* Projects First - What I'm Building NOW */}
           {featuredProjects.length > 0 && (
-            <section className="mb-16">
+            <section className="mb-20">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-8 bg-gradient-to-b from-blue-600 to-indigo-600 rounded-full"></div>
-                <h2 className="text-3xl font-bold text-slate-900">What I'm Building in the Open</h2>
+                <h2 className="text-3xl font-bold text-slate-900">What I'm Building</h2>
               </div>
               <p className="text-lg text-slate-600 mb-8 max-w-3xl">
-                After 10+ years solving data problems at top companies, I'm packaging those lessons into open source tools.
-                <strong className="text-slate-900"> All code is public. All learnings are shared.</strong>
+                Active projects solving real problems. Built in public, shared with everyone.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -360,6 +216,103 @@ export default function Home() {
             </section>
           )}
 
+          {/* Vision Section - Where the Industry is Going */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-12 border-2 border-blue-200">
+              <div className="mb-6">
+                <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  What I Believe
+                </span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                Every company will be a software company. Every team will need better tools.
+              </h2>
+              <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
+                <p>
+                  We're in the middle of a fundamental shift. AI isn't just changing how we build software—it's changing who can build software and what's possible to build.
+                </p>
+                <p>
+                  But most teams are stuck rebuilding the same infrastructure over and over. Data pipelines. ML platforms. Developer tooling. Monitoring systems. Every company solves these problems slightly differently, but 90% of the code is identical.
+                </p>
+                <p className="text-xl font-semibold text-blue-700">
+                  → That's what I'm changing. Open source tools that package enterprise-grade solutions, so teams can skip the boilerplate and build what actually matters.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Brief Credibility Section */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-2 h-8 bg-gradient-to-b from-slate-400 to-slate-600 rounded-full"></div>
+                <h2 className="text-2xl font-bold text-slate-900">Built at Scale</h2>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 border-2 border-slate-200">
+                <p className="text-lg text-slate-700 mb-6">
+                  I've built these systems before—at companies you've heard of. Now I'm open sourcing what works.
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="font-semibold text-slate-900">Airbnb (HotelTonight)</p>
+                      <p className="text-sm text-slate-600">Director of Data Science - Multi-million dollar revenue impact through ML/forecasting</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="font-semibold text-slate-900">Braze</p>
+                      <p className="text-sm text-slate-600">Sr Manager, Data & AI - 80% efficiency gains, 6 days to 30 seconds for exec reporting</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="font-semibold text-slate-900">PostPilot</p>
+                      <p className="text-sm text-slate-600">Head of Data - Leading AI/ML strategy and platform development</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="font-semibold text-slate-900">Open Source</p>
+                      <p className="text-sm text-slate-600">Building SBDK and sharing everything publicly</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pt-6 border-t border-slate-200">
+                  <a
+                    href="https://linkedin.com/in/mattstrautmann"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-blue-600 hover:underline font-semibold"
+                  >
+                    Full background on LinkedIn
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Other Projects */}
           {otherProjects.length > 0 && (
             <section className="mb-16">
@@ -411,7 +364,7 @@ export default function Home() {
             </section>
           )}
 
-          {/* CTA Section */}
+          {/* CTA Section - Action Oriented */}
           <section className="mt-24 pt-16 border-t border-slate-200">
             <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-12 text-center relative overflow-hidden">
               {/* Decorative elements */}
@@ -421,26 +374,26 @@ export default function Home() {
               <div className="relative">
                 <div className="mb-4">
                   <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                    Let's Connect
+                    Start Building
                   </span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                  Building something in AI/Data?
+                  Stop rebuilding. Start shipping.
                 </h2>
                 <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-                  I share insights on LinkedIn and code on GitHub. Let's connect and build together.
+                  Try SBDK. Follow the work on GitHub. Read what I'm thinking on LinkedIn. Let's build the future together.
                 </p>
                 <div className="flex gap-4 justify-center flex-wrap">
                   <a
-                    href="https://linkedin.com/in/mattstrautmann"
+                    href="https://sbdk.dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 hover:bg-blue-700"
                   >
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
-                    Connect on LinkedIn
+                    Try SBDK
                   </a>
                   <a
                     href="https://github.com/matt-strautmann"
@@ -451,7 +404,18 @@ export default function Home() {
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
                     </svg>
-                    View GitHub
+                    Follow on GitHub
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/mattstrautmann"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 bg-slate-700 text-white rounded-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 hover:bg-slate-600"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    LinkedIn
                   </a>
                 </div>
               </div>
