@@ -48,7 +48,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-slate-900 via-blue-800 to-slate-900 bg-clip-text text-transparent">
                   Matt Strautmann
                 </h1>
-                <p className="text-slate-600 mt-1 font-medium">Production-Ready SDKs - Free, Open Source, Battle-Tested</p>
+                <p className="text-slate-600 mt-1 font-medium">Free Data & ML SDKs from Airbnb/Braze - Skip 6 Months of Setup</p>
               </div>
               <div className="flex items-center gap-3">
                 <Link
