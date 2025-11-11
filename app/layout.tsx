@@ -4,8 +4,8 @@ import { PHProvider, PostHogPageView } from "./providers/posthog";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "Matt Strautmann - Building Open Source Developer Tools",
-  description: "Stop reinventing the wheel. I'm packaging 10+ years of enterprise data/ML experience from Airbnb, Braze, and PostPilot into open source tools. All code public. All learnings shared.",
+  title: "Matt Strautmann - Free Open Source Developer Tools & SDKs",
+  description: "Production-ready SDKs from 10+ years at Airbnb, Braze & PostPilot. Free, MIT licensed, zero vendor lock-in. Skip 6 months of infrastructure work - start shipping today.",
   metadataBase: new URL('https://mattstrautmann.com'),
   verification: {
     google: 'MEH2NpqfcfafbioMPzOqGdXM8h0ty6uHiQYfG5R_P48',
@@ -19,16 +19,16 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Matt Strautmann - Building Open Source Developer Tools",
-    description: "Packaging 10+ years of enterprise data/ML experience into open source tools. SBDK and more. Built in public.",
+    title: "Matt Strautmann - Free Production-Ready Developer SDKs",
+    description: "Skip 6 months of infrastructure work. Battle-tested SDKs from Airbnb, Braze & PostPilot. Free, MIT licensed, production-ready today.",
     url: 'https://mattstrautmann.com',
     siteName: 'Matt Strautmann',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Matt Strautmann - Building Open Source Developer Tools",
-    description: "Stop reinventing the wheel. Enterprise-grade data/ML tools, open sourced. Building SBDK and sharing everything.",
+    title: "Matt Strautmann - Free Developer Tools & SDKs",
+    description: "Production-ready SDKs from 10+ years at Airbnb & Braze. Free, open source, zero vendor lock-in. Start shipping faster.",
   },
   robots: {
     index: true,

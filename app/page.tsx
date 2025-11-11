@@ -25,7 +25,7 @@ export default function Home() {
       { "@type": "Organization", "name": "Conversant" }
     ],
     knowsAbout: ["Open Source", "Developer Tools", "Artificial Intelligence", "Machine Learning", "Data Platforms", "Software Development Kits"],
-    description: "Building open source developer tools. Packaging 10+ years of enterprise data/ML experience from Airbnb, Braze, and PostPilot into tools like SBDK. All code public. All learnings shared. Stop reinventing the wheel.",
+    description: "Open source developer tools with 10+ years of enterprise experience from Airbnb, Braze, and PostPilot. Production-ready SDKs and data platforms. Free, MIT licensed, no vendor lock-in. Stop rebuilding - start shipping.",
   };
 
   const featuredProjects = projects.filter(p => p.featured);
@@ -48,7 +48,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-slate-900 via-blue-800 to-slate-900 bg-clip-text text-transparent">
                   Matt Strautmann
                 </h1>
-                <p className="text-slate-600 mt-1 font-medium">Building tools for developers</p>
+                <p className="text-slate-600 mt-1 font-medium">Free Data & ML SDKs from Airbnb/Braze - Skip 6 Months of Setup</p>
               </div>
               <div className="flex items-center gap-3">
                 <Link
@@ -100,6 +100,11 @@ export default function Home() {
                   Start building what matters.
                 </span>
               </h2>
+
+              <p className="text-2xl font-semibold text-slate-900 mb-6 border-l-4 border-blue-600 pl-6">
+                Skip 6 months of infrastructure work. Start with enterprise-grade tools built at Airbnb and Braze.
+                <span className="block text-blue-600 mt-2 font-bold">Free forever. No signup required.</span>
+              </p>
 
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
                 I've spent 10+ years building data and ML platforms at Airbnb, Braze, and now PostPilot.

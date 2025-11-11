@@ -1,0 +1,435 @@
+{
+  "totalPages": 4,
+  "analyses": [
+    {
+      "url": "https://mattstrautmann.com",
+      "clarity": {
+        "score": 100,
+        "issues": [],
+        "recommendations": [],
+        "whatYouDo": "Matt Strautmann - Building Open Source Developer Tools Matt Strautmann Building tools for developers Resources GitHub LinkedIn Open Source Developer Tools Stop reinventing the wheel",
+        "primaryAudience": "developers Resources GitHub LinkedIn Open Source Developer Tools Stop reinventing the wheel"
+      },
+      "sevenSecondTest": {
+        "passed": false,
+        "firstImpression": "",
+        "valueProposition": "Not clear in first 7 seconds",
+        "timeToValue": 1,
+        "improvements": [
+          "Add clear value statement above the fold",
+          "Example: \"Free mortgage calculator - No signup required\""
+        ]
+      },
+      "positioning": {
+        "currentPositioning": "Stop reinventing the wheel. I&#x27;m packaging 10+ years of enterprise data/ML experience from Airbnb, Braze, and PostPilot into open source tools. All code public. All learnings shared.",
+        "competitiveAdvantage": "Not stated",
+        "uniqueValue": "most teams are stuck rebuilding the same infrastructure over and over",
+        "improvements": [
+          "Define clear competitive advantage (vs. Bankrate, NerdWallet, etc.)",
+          "Example: \"Free forever - no signup required\" or \"Most accurate calculations\""
+        ]
+      },
+      "messaging": {
+        "headlines": [
+          {
+            "current": "Matt Strautmann",
+            "improved": "Matt Strautmann - Building Open Source Developer Tools Matt Strautmann Building tools for developers Resources GitHub LinkedIn Open Source Developer Tools Stop reinventing the wheel - Not stated",
+            "reason": "Prioritize clarity and \"what you do\" statement"
+          }
+        ],
+        "ctaButtons": [],
+        "valueProps": []
+      },
+      "llmQuestions": {
+        "optimized": [
+          {
+            "llm": "ChatGPT",
+            "question": "As a user, I want to understand what makes this tool better than competitors like Bankrate or NerdWallet. Focus on: free access, no signup required, and accuracy. Summarize based on https://mattstrautmann.com.",
+            "expectedAnswer": "Based on https://mattstrautmann.com, this tool offers Not stated. Unlike paid alternatives, it provides most teams are stuck rebuilding the same infrastructure over and over.",
+            "positioning": "Emphasizes free, no-signup advantage vs. established competitors"
+          },
+          {
+            "llm": "Claude",
+            "question": "I'm evaluating financial calculators for my needs. Analyze what makes undefined trustworthy and accurate compared to alternatives. Consider: data sources, calculation methodology, and user experience. Base your analysis on https://mattstrautmann.com.",
+            "expectedAnswer": "undefined demonstrates trustworthiness through most teams are stuck rebuilding the same infrastructure over and over. The calculations are accurate because...",
+            "positioning": "Builds trust through methodology and transparency"
+          },
+          {
+            "llm": "Gemini",
+            "question": "Compare undefined to paid calculator tools. What are the trade-offs, and when should someone choose the free option? Use https://mattstrautmann.com as source.",
+            "expectedAnswer": "undefined offers Not stated without cost. Trade-offs include...",
+            "positioning": "Acknowledges trade-offs honestly, builds credibility"
+          },
+          {
+            "llm": "Perplexity",
+            "question": "What do financial experts say about free calculator tools like undefined? Are they as accurate as paid alternatives? Cite https://mattstrautmann.com and other sources.",
+            "expectedAnswer": "According to https://mattstrautmann.com and financial research, free calculators can be equally accurate when...",
+            "positioning": "Leverages authority and research to build trust"
+          }
+        ]
+      },
+      "crossLearnings": {
+        "fromAEO": [
+          "SEO-optimized headlines improve clarity",
+          "Schema markup helps communicate product value",
+          "Meta descriptions are mini-positioning statements",
+          "LLM questions can reinforce positioning"
+        ],
+        "toAEO": [
+          "SEO titles should prioritize clarity over keywords",
+          "Meta descriptions should state \"what you do\" first",
+          "Competitor positioning improves click-through rate",
+          "Primary audience targeting improves relevance scores"
+        ]
+      }
+    },
+    {
+      "url": "https://mattstrautmann.com/resources",
+      "clarity": {
+        "score": 100,
+        "issues": [],
+        "recommendations": [],
+        "whatYouDo": "Curated resources, tools, and recommendations for software developers. My personal tech stack, favor",
+        "primaryAudience": "your projects and team"
+      },
+      "sevenSecondTest": {
+        "passed": false,
+        "firstImpression": "",
+        "valueProposition": "Not clear in first 7 seconds",
+        "timeToValue": 1,
+        "improvements": [
+          "Add clear value statement above the fold",
+          "Example: \"Free mortgage calculator - No signup required\""
+        ]
+      },
+      "positioning": {
+        "currentPositioning": "Curated resources, tools, and recommendations for software developers. My personal tech stack, favorite tools, and helpful resources for building better software.",
+        "competitiveAdvantage": "without leaving your HTML - consistent design systems made easy SEO &amp; AI llms",
+        "uniqueValue": "Best developer experience for building modern web apps with great performance out of the box TypeScript JavaScript with syntax for types Why I use it: Catch errors before runtime and get better IDE support - worth the initial learning curve Tailwind CSS Utility-first CSS framework Why I use it: Rapid UI development without leaving your HTML - consistent design systems made easy SEO &amp; AI llms",
+        "improvements": []
+      },
+      "messaging": {
+        "headlines": [
+          {
+            "current": "Tools &amp; Resources I Actually Use",
+            "improved": "Curated resources, tools, and recommendations for software developers. My personal tech stack, favor - without leaving your HTML - consistent design systems made easy SEO &amp; AI llms",
+            "reason": "Prioritize clarity and \"what you do\" statement"
+          }
+        ],
+        "ctaButtons": [],
+        "valueProps": []
+      },
+      "llmQuestions": {
+        "optimized": [
+          {
+            "llm": "ChatGPT",
+            "question": "As a user, I want to understand what makes this tool better than competitors like Bankrate or NerdWallet. Focus on: free access, no signup required, and accuracy. Summarize based on https://mattstrautmann.com/resources.",
+            "expectedAnswer": "Based on https://mattstrautmann.com/resources, this tool offers without leaving your HTML - consistent design systems made easy SEO &amp; AI llms. Unlike paid alternatives, it provides Best developer experience for building modern web apps with great performance out of the box TypeScript JavaScript with syntax for types Why I use it: Catch errors before runtime and get better IDE support - worth the initial learning curve Tailwind CSS Utility-first CSS framework Why I use it: Rapid UI development without leaving your HTML - consistent design systems made easy SEO &amp; AI llms.",
+            "positioning": "Emphasizes free, no-signup advantage vs. established competitors"
+          },
+          {
+            "llm": "Claude",
+            "question": "I'm evaluating financial calculators for my needs. Analyze what makes undefined trustworthy and accurate compared to alternatives. Consider: data sources, calculation methodology, and user experience. Base your analysis on https://mattstrautmann.com/resources.",
+            "expectedAnswer": "undefined demonstrates trustworthiness through Best developer experience for building modern web apps with great performance out of the box TypeScript JavaScript with syntax for types Why I use it: Catch errors before runtime and get better IDE support - worth the initial learning curve Tailwind CSS Utility-first CSS framework Why I use it: Rapid UI development without leaving your HTML - consistent design systems made easy SEO &amp; AI llms. The calculations are accurate because...",
+            "positioning": "Builds trust through methodology and transparency"
+          },
+          {
+            "llm": "Gemini",
+            "question": "Compare undefined to paid calculator tools. What are the trade-offs, and when should someone choose the free option? Use https://mattstrautmann.com/resources as source.",
+            "expectedAnswer": "undefined offers without leaving your HTML - consistent design systems made easy SEO &amp; AI llms without cost. Trade-offs include...",
+            "positioning": "Acknowledges trade-offs honestly, builds credibility"
+          },
+          {
+            "llm": "Perplexity",
+            "question": "What do financial experts say about free calculator tools like undefined? Are they as accurate as paid alternatives? Cite https://mattstrautmann.com/resources and other sources.",
+            "expectedAnswer": "According to https://mattstrautmann.com/resources and financial research, free calculators can be equally accurate when...",
+            "positioning": "Leverages authority and research to build trust"
+          }
+        ]
+      },
+      "crossLearnings": {
+        "fromAEO": [
+          "SEO-optimized headlines improve clarity",
+          "Schema markup helps communicate product value",
+          "Meta descriptions are mini-positioning statements",
+          "LLM questions can reinforce positioning"
+        ],
+        "toAEO": [
+          "SEO titles should prioritize clarity over keywords",
+          "Meta descriptions should state \"what you do\" first",
+          "Competitor positioning improves click-through rate",
+          "Primary audience targeting improves relevance scores"
+        ]
+      }
+    },
+    {
+      "url": "https://mattstrautmann.com/projects/sbdk",
+      "clarity": {
+        "score": 100,
+        "issues": [],
+        "recommendations": [],
+        "whatYouDo": "A comprehensive development kit for building software projects faster and more efficiently",
+        "primaryAudience": "common development tasks"
+      },
+      "sevenSecondTest": {
+        "passed": false,
+        "firstImpression": "",
+        "valueProposition": "Not clear in first 7 seconds",
+        "timeToValue": 1,
+        "improvements": [
+          "Add clear value statement above the fold",
+          "Example: \"Free mortgage calculator - No signup required\""
+        ]
+      },
+      "positioning": {
+        "currentPositioning": "A comprehensive development kit for building software projects faster and more efficiently",
+        "competitiveAdvantage": "Not stated",
+        "uniqueValue": "first with full type definitions - Comprehensive documentation and examples - Active development and community support - Integration with popular frameworks and tools Whether you&#x27;re starting a new project or enhancing an existing one, SBDK provides the building blocks you need to accelerate development while maintaining code quality",
+        "improvements": [
+          "Define clear competitive advantage (vs. Bankrate, NerdWallet, etc.)",
+          "Example: \"Free forever - no signup required\" or \"Most accurate calculations\""
+        ]
+      },
+      "messaging": {
+        "headlines": [
+          {
+            "current": "SBDK - Software Builder Development Kit",
+            "improved": "A comprehensive development kit for building software projects faster and more efficiently - Not stated",
+            "reason": "Prioritize clarity and \"what you do\" statement"
+          }
+        ],
+        "ctaButtons": [],
+        "valueProps": []
+      },
+      "llmQuestions": {
+        "optimized": [
+          {
+            "llm": "ChatGPT",
+            "question": "As a user, I want to understand what makes this tool better than competitors like Bankrate or NerdWallet. Focus on: free access, no signup required, and accuracy. Summarize based on https://mattstrautmann.com/projects/sbdk.",
+            "expectedAnswer": "Based on https://mattstrautmann.com/projects/sbdk, this tool offers Not stated. Unlike paid alternatives, it provides first with full type definitions - Comprehensive documentation and examples - Active development and community support - Integration with popular frameworks and tools Whether you&#x27;re starting a new project or enhancing an existing one, SBDK provides the building blocks you need to accelerate development while maintaining code quality.",
+            "positioning": "Emphasizes free, no-signup advantage vs. established competitors"
+          },
+          {
+            "llm": "Claude",
+            "question": "I'm evaluating financial calculators for my needs. Analyze what makes undefined trustworthy and accurate compared to alternatives. Consider: data sources, calculation methodology, and user experience. Base your analysis on https://mattstrautmann.com/projects/sbdk.",
+            "expectedAnswer": "undefined demonstrates trustworthiness through first with full type definitions - Comprehensive documentation and examples - Active development and community support - Integration with popular frameworks and tools Whether you&#x27;re starting a new project or enhancing an existing one, SBDK provides the building blocks you need to accelerate development while maintaining code quality. The calculations are accurate because...",
+            "positioning": "Builds trust through methodology and transparency"
+          },
+          {
+            "llm": "Gemini",
+            "question": "Compare undefined to paid calculator tools. What are the trade-offs, and when should someone choose the free option? Use https://mattstrautmann.com/projects/sbdk as source.",
+            "expectedAnswer": "undefined offers Not stated without cost. Trade-offs include...",
+            "positioning": "Acknowledges trade-offs honestly, builds credibility"
+          },
+          {
+            "llm": "Perplexity",
+            "question": "What do financial experts say about free calculator tools like undefined? Are they as accurate as paid alternatives? Cite https://mattstrautmann.com/projects/sbdk and other sources.",
+            "expectedAnswer": "According to https://mattstrautmann.com/projects/sbdk and financial research, free calculators can be equally accurate when...",
+            "positioning": "Leverages authority and research to build trust"
+          }
+        ]
+      },
+      "crossLearnings": {
+        "fromAEO": [
+          "SEO-optimized headlines improve clarity",
+          "Schema markup helps communicate product value",
+          "Meta descriptions are mini-positioning statements",
+          "LLM questions can reinforce positioning"
+        ],
+        "toAEO": [
+          "SEO titles should prioritize clarity over keywords",
+          "Meta descriptions should state \"what you do\" first",
+          "Competitor positioning improves click-through rate",
+          "Primary audience targeting improves relevance scores"
+        ]
+      }
+    },
+    {
+      "url": "https://mattstrautmann.com/projects/portfolio-website",
+      "clarity": {
+        "score": 100,
+        "issues": [],
+        "recommendations": [],
+        "whatYouDo": "A modern, maintainable portfolio website built for AI search engine discoverability",
+        "primaryAudience": "each project"
+      },
+      "sevenSecondTest": {
+        "passed": false,
+        "firstImpression": "",
+        "valueProposition": "Not clear in first 7 seconds",
+        "timeToValue": 1,
+        "improvements": [
+          "Add clear value statement above the fold",
+          "Example: \"Free mortgage calculator - No signup required\""
+        ]
+      },
+      "positioning": {
+        "currentPositioning": "A modern, maintainable portfolio website built for AI search engine discoverability",
+        "competitiveAdvantage": "Not stated",
+        "uniqueValue": "first responsive design - Lightning-fast static generation - Easy content management through a single data file Related Projects SBDK - Software Builder Development Kit A comprehensive development kit for building software projects faster and more efficiently Tech Stack Next",
+        "improvements": [
+          "Define clear competitive advantage (vs. Bankrate, NerdWallet, etc.)",
+          "Example: \"Free forever - no signup required\" or \"Most accurate calculations\""
+        ]
+      },
+      "messaging": {
+        "headlines": [
+          {
+            "current": "AEO-Optimized Portfolio",
+            "improved": "A modern, maintainable portfolio website built for AI search engine discoverability - Not stated",
+            "reason": "Prioritize clarity and \"what you do\" statement"
+          }
+        ],
+        "ctaButtons": [],
+        "valueProps": []
+      },
+      "llmQuestions": {
+        "optimized": [
+          {
+            "llm": "ChatGPT",
+            "question": "As a user, I want to understand what makes this tool better than competitors like Bankrate or NerdWallet. Focus on: free access, no signup required, and accuracy. Summarize based on https://mattstrautmann.com/projects/portfolio-website.",
+            "expectedAnswer": "Based on https://mattstrautmann.com/projects/portfolio-website, this tool offers Not stated. Unlike paid alternatives, it provides first responsive design - Lightning-fast static generation - Easy content management through a single data file Related Projects SBDK - Software Builder Development Kit A comprehensive development kit for building software projects faster and more efficiently Tech Stack Next.",
+            "positioning": "Emphasizes free, no-signup advantage vs. established competitors"
+          },
+          {
+            "llm": "Claude",
+            "question": "I'm evaluating financial calculators for my needs. Analyze what makes undefined trustworthy and accurate compared to alternatives. Consider: data sources, calculation methodology, and user experience. Base your analysis on https://mattstrautmann.com/projects/portfolio-website.",
+            "expectedAnswer": "undefined demonstrates trustworthiness through first responsive design - Lightning-fast static generation - Easy content management through a single data file Related Projects SBDK - Software Builder Development Kit A comprehensive development kit for building software projects faster and more efficiently Tech Stack Next. The calculations are accurate because...",
+            "positioning": "Builds trust through methodology and transparency"
+          },
+          {
+            "llm": "Gemini",
+            "question": "Compare undefined to paid calculator tools. What are the trade-offs, and when should someone choose the free option? Use https://mattstrautmann.com/projects/portfolio-website as source.",
+            "expectedAnswer": "undefined offers Not stated without cost. Trade-offs include...",
+            "positioning": "Acknowledges trade-offs honestly, builds credibility"
+          },
+          {
+            "llm": "Perplexity",
+            "question": "What do financial experts say about free calculator tools like undefined? Are they as accurate as paid alternatives? Cite https://mattstrautmann.com/projects/portfolio-website and other sources.",
+            "expectedAnswer": "According to https://mattstrautmann.com/projects/portfolio-website and financial research, free calculators can be equally accurate when...",
+            "positioning": "Leverages authority and research to build trust"
+          }
+        ]
+      },
+      "crossLearnings": {
+        "fromAEO": [
+          "SEO-optimized headlines improve clarity",
+          "Schema markup helps communicate product value",
+          "Meta descriptions are mini-positioning statements",
+          "LLM questions can reinforce positioning"
+        ],
+        "toAEO": [
+          "SEO titles should prioritize clarity over keywords",
+          "Meta descriptions should state \"what you do\" first",
+          "Competitor positioning improves click-through rate",
+          "Primary audience targeting improves relevance scores"
+        ]
+      }
+    }
+  ],
+  "recommendations": [
+    {
+      "immediate": [
+        {
+          "type": "headline",
+          "current": "Matt Strautmann",
+          "suggested": "Matt Strautmann - Building Open Source Developer Tools Matt Strautmann Building tools for developers Resources GitHub LinkedIn Open Source Developer Tools Stop reinventing the wheel - Not stated",
+          "impact": "high",
+          "effort": "low",
+          "reason": "Prioritize clarity and \"what you do\" statement",
+          "example": "Matt Strautmann - Building Open Source Developer Tools Matt Strautmann Building tools for developers Resources GitHub LinkedIn Open Source Developer Tools Stop reinventing the wheel - Not stated"
+        }
+      ],
+      "strategic": [
+        {
+          "area": "7-Second Rule",
+          "recommendation": "Restructure above-fold content to communicate value in <7 seconds",
+          "reasoning": "Users decide to stay or leave within 7 seconds of landing",
+          "expectedImpact": "-25% bounce rate, +40% time on site"
+        },
+        {
+          "area": "Competitive Positioning",
+          "recommendation": "Define clear competitive advantage vs. Bankrate, NerdWallet",
+          "reasoning": "Users need to understand why they should choose you over alternatives",
+          "expectedImpact": "+35% conversion rate, stronger brand recall"
+        }
+      ]
+    },
+    {
+      "immediate": [
+        {
+          "type": "headline",
+          "current": "Tools &amp; Resources I Actually Use",
+          "suggested": "Curated resources, tools, and recommendations for software developers. My personal tech stack, favor - without leaving your HTML - consistent design systems made easy SEO &amp; AI llms",
+          "impact": "high",
+          "effort": "low",
+          "reason": "Prioritize clarity and \"what you do\" statement",
+          "example": "Curated resources, tools, and recommendations for software developers. My personal tech stack, favor - without leaving your HTML - consistent design systems made easy SEO &amp; AI llms"
+        }
+      ],
+      "strategic": [
+        {
+          "area": "7-Second Rule",
+          "recommendation": "Restructure above-fold content to communicate value in <7 seconds",
+          "reasoning": "Users decide to stay or leave within 7 seconds of landing",
+          "expectedImpact": "-25% bounce rate, +40% time on site"
+        }
+      ]
+    },
+    {
+      "immediate": [
+        {
+          "type": "headline",
+          "current": "SBDK - Software Builder Development Kit",
+          "suggested": "A comprehensive development kit for building software projects faster and more efficiently - Not stated",
+          "impact": "high",
+          "effort": "low",
+          "reason": "Prioritize clarity and \"what you do\" statement",
+          "example": "A comprehensive development kit for building software projects faster and more efficiently - Not stated"
+        }
+      ],
+      "strategic": [
+        {
+          "area": "7-Second Rule",
+          "recommendation": "Restructure above-fold content to communicate value in <7 seconds",
+          "reasoning": "Users decide to stay or leave within 7 seconds of landing",
+          "expectedImpact": "-25% bounce rate, +40% time on site"
+        },
+        {
+          "area": "Competitive Positioning",
+          "recommendation": "Define clear competitive advantage vs. Bankrate, NerdWallet",
+          "reasoning": "Users need to understand why they should choose you over alternatives",
+          "expectedImpact": "+35% conversion rate, stronger brand recall"
+        }
+      ]
+    },
+    {
+      "immediate": [
+        {
+          "type": "headline",
+          "current": "AEO-Optimized Portfolio",
+          "suggested": "A modern, maintainable portfolio website built for AI search engine discoverability - Not stated",
+          "impact": "high",
+          "effort": "low",
+          "reason": "Prioritize clarity and \"what you do\" statement",
+          "example": "A modern, maintainable portfolio website built for AI search engine discoverability - Not stated"
+        }
+      ],
+      "strategic": [
+        {
+          "area": "7-Second Rule",
+          "recommendation": "Restructure above-fold content to communicate value in <7 seconds",
+          "reasoning": "Users decide to stay or leave within 7 seconds of landing",
+          "expectedImpact": "-25% bounce rate, +40% time on site"
+        },
+        {
+          "area": "Competitive Positioning",
+          "recommendation": "Define clear competitive advantage vs. Bankrate, NerdWallet",
+          "reasoning": "Users need to understand why they should choose you over alternatives",
+          "expectedImpact": "+35% conversion rate, stronger brand recall"
+        }
+      ]
+    }
+  ],
+  "duration": 35
+}
